@@ -4,22 +4,22 @@
 <!--[if (IE 7)&(!IEMobile)]><html class="ie7 ie6-7 ie6-8" lang="en" dir="ltr"><![endif]-->
 <!--[if (IE 8)&(!IEMobile)]><html class="ie8 ie6-8" lang="en" dir="ltr"><![endif]-->
 <!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html lang="en" dir="ltr"
-  xmlns:content="http://purl.org/rss/1.0/modules/content/"
-  xmlns:dc="http://purl.org/dc/terms/"
-  xmlns:foaf="http://xmlns.com/foaf/0.1/"
-  xmlns:og="http://ogp.me/ns#"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:sioc="http://rdfs.org/sioc/ns#"
-  xmlns:sioct="http://rdfs.org/sioc/types#"
-  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+  xmlns:content="https://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="https://purl.org/dc/terms/"
+  xmlns:foaf="https://xmlns.com/foaf/0.1/"
+  xmlns:og="https://ogp.me/ns#"
+  xmlns:rdfs="https://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="https://rdfs.org/sioc/ns#"
+  xmlns:sioct="https://rdfs.org/sioc/types#"
+  xmlns:skos="https://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="https://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
 
 <!-- Mirrored from chapters.bc.edu/map by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 Aug 2016 15:42:57 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
 <meta charset="utf-8" />
 <link rel="shortcut icon" href="sites/all/themes/forgottenchapters/favicon.ico" type="image/vnd.microsoft.icon" />
-<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<meta name="Generator" content="Drupal 7 (https://drupal.org)" />
 <meta name="MobileOptimized" content="width">
 <meta name="HandheldFriendly" content="true">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -123,10 +123,10 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
 <link type="text/css" rel="stylesheet" href="sites/all/themes/forgottenchapters/css/forgottenchapters.responsive.gpanels063b.css?o1vzsw" media="screen" />
 
 <!--[if lte IE 7]>
-<link type="text/css" rel="stylesheet" href="http://bostonliteraryhistory.com/sites/all/themes/forgottenchapters/css/ie-lte-7.css?o1vzsw" media="all" />
+<link type="text/css" rel="stylesheet" href="https://bostonliteraryhistory.com/sites/all/themes/forgottenchapters/css/ie-lte-7.css?o1vzsw" media="all" />
 <![endif]-->
-<link href='http://fonts.googleapis.com/css?family=Montaga' rel='stylesheet' type='text/css'>
-<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<link href='https://fonts.googleapis.com/css?family=Montaga' rel='stylesheet' type='text/css'>
+<!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body class="html not-front not-logged-in no-sidebars page-map section-map page-views site-name-hidden">
   <div id="skip-link">
@@ -271,7 +271,7 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
 <script src="sites/all/modules/google_analytics/googleanalytics063b.js?o1vzsw"></script>
 <script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","analytics.js","ga");ga("create", "UA-29389371-1", {"cookieDomain":"auto"});ga("send", "pageview");</script>
 <script src="sites/all/modules/gmap/js/gmap063b.js?o1vzsw"></script>
-<script src="http://maps.googleapis.com/maps/api/js?v=3&amp;language=en&amp;sensor=false"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3&amp;language=en&amp;sensor=false"></script>
 <script src="sites/all/modules/gmap/js/icon063b.js?o1vzsw"></script>
 <script src="sites/all/modules/gmap/js/marker063b.js?o1vzsw"></script>
 <script src="sites/all/modules/gmap/js/highlight063b.js?o1vzsw"></script>

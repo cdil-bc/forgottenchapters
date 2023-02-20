@@ -34,7 +34,7 @@ function gmap_admin_settings($form, &$form_state) {
   }
 
   $form['initialization']['gmap_api_key']['#title'] = t('Google Maps API Key');
-  $form['initialization']['gmap_api_key']['#description'] = t('This key is currently not required by Google.  Entering a Key will allow you to track map usage in Google.  If you want to use an API key, you can get one at <a href="http://code.google.com/apis/maps/signup.html">Google Map API website</a>.');
+  $form['initialization']['gmap_api_key']['#description'] = t('This key is currently not required by Google.  Entering a Key will allow you to track map usage in Google.  If you want to use an API key, you can get one at <a href="https://code.google.com/apis/maps/signup.html">Google Map API website</a>.');
 
 if (file_default_scheme() != 'public') {
   $form['initialization']['gmap_private_markerfile'] = array(
@@ -375,7 +375,7 @@ if (file_default_scheme() != 'public') {
   $form['gmap_markermanager']['markermanager'] = array(
     '#type' => 'fieldset',
     '#title' => t('MarkerManager settings'),
-    '#description' => t('MarkerManager is the improved open source version of GMarkerManager. To use, you must download it from <a href="@url">here</a> and place it in the <em>thirdparty</em> folder.', array('@url' => 'http://google-maps-utility-library-v3.googlecode.com/svn/tags/markermanager/1.0/src/')),
+    '#description' => t('MarkerManager is the improved open source version of GMarkerManager. To use, you must download it from <a href="@url">here</a> and place it in the <em>thirdparty</em> folder.', array('@url' => 'https://google-maps-utility-library-v3.googlecode.com/svn/tags/markermanager/1.0/src/')),
     '#collapsible' => TRUE,
     '#collapsed' => TRUE,
   );
@@ -433,7 +433,7 @@ if (file_default_scheme() != 'public') {
   $form['gmap_markermanager']['markerclusterer'] = array(
     '#type' => 'fieldset',
     '#title' => t('MarkerClusterer settings'),
-    '#description' => t('MarkerClusterer creates and manages per-zoom-level clusters for large amounts of markers (hundreds or thousands.) To use, you must download it from <a href="@url">here</a> and place it in the <em>thirdparty</em> folder.', array('@url' => 'http://google-maps-utility-library-v3.googlecode.com/svn/tags/markerclusterer/1.0/src/')),
+    '#description' => t('MarkerClusterer creates and manages per-zoom-level clusters for large amounts of markers (hundreds or thousands.) To use, you must download it from <a href="@url">here</a> and place it in the <em>thirdparty</em> folder.', array('@url' => 'https://google-maps-utility-library-v3.googlecode.com/svn/tags/markerclusterer/1.0/src/')),
     '#collapsible' => TRUE,
     '#collapsed' => TRUE,
   );
@@ -474,7 +474,7 @@ if (file_default_scheme() != 'public') {
   $form['gmap_markermanager']['clusterer'] = array(
     '#type' => 'fieldset',
     '#title' => t('Clusterer settings'),
-    '#description' => t('Clusterer is a marker manager written by Jef Poskanzer of acme.com. To use, you must place Clusterer2.js (available <a href="@url">here</a>) into the "thirdparty" folder.', array('@url' => 'http://acme.com/javascript/Clusterer2.js')),
+    '#description' => t('Clusterer is a marker manager written by Jef Poskanzer of acme.com. To use, you must place Clusterer2.js (available <a href="@url">here</a>) into the "thirdparty" folder.', array('@url' => 'https://acme.com/javascript/Clusterer2.js')),
     '#collapsible' => TRUE,
     '#collapsed' => TRUE,
   );
@@ -529,7 +529,7 @@ if (file_default_scheme() != 'public') {
   $form['gmap_markermanager']['clustermarker'] = array(
     '#type' => 'fieldset',
     '#title' => t('ClusterMarker settings'),
-    '#description' => t('ClusterMarker is a marker manager written by Martin Pearman. To use, you must download it from <a href="@url">here</a> and extract the appropriate file to the <em>thirdparty</em> folder.', array('@url' => 'http://googlemapsapi.martinpearman.co.uk/downloads.php?cat_id=1')),
+    '#description' => t('ClusterMarker is a marker manager written by Martin Pearman. To use, you must download it from <a href="@url">here</a> and extract the appropriate file to the <em>thirdparty</em> folder.', array('@url' => 'https://googlemapsapi.martinpearman.co.uk/downloads.php?cat_id=1')),
     '#collapsible' => TRUE,
     '#collapsed' => TRUE,
   );
@@ -609,7 +609,7 @@ function gmap_admin_settings_validate($form, &$form_state) {
 
   // Check that this is valid JSON, or an empty string.
   if ('' != $form_state['values']['gmap_markermanager']['markerclusterer']['styles'] && !is_array(json_decode($form_state['values']['gmap_markermanager']['markerclusterer']['styles']))) {
-    form_error($form['gmap_markermanager']['markerclusterer']['styles'], t('The MarkerClusterer styles setting should be empty or a JSON array of !doc_link objects.', array('!doc_link' => l('MarkerStyleOptions', 'http://gmaps-utility-library.googlecode.com/svn/trunk/markerclusterer/1.0/docs/reference.html#MarkerClustererOptions', array('attributes' => array('target' => '_blank'))))));
+    form_error($form['gmap_markermanager']['markerclusterer']['styles'], t('The MarkerClusterer styles setting should be empty or a JSON array of !doc_link objects.', array('!doc_link' => l('MarkerStyleOptions', 'https://gmaps-utility-library.googlecode.com/svn/trunk/markerclusterer/1.0/docs/reference.html#MarkerClustererOptions', array('attributes' => array('target' => '_blank'))))));
   }
 
 }

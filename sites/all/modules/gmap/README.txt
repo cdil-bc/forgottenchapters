@@ -18,7 +18,7 @@ Installation
 ------------
 
 * To install, follow the general directions available at:
-http://drupal.org/getting-started/5/install-contrib/modules
+https://drupal.org/getting-started/5/install-contrib/modules
 
 In order to use 7.x-1.x and earlier versions of this module, you need a (free) Google Maps API Browser key. Here is how to get one:
 
@@ -30,7 +30,7 @@ In order to use 7.x-1.x and earlier versions of this module, you need a (free) G
 
 * You may need to make changes to your theme so that Google Maps can display correctly. See the section on "Google Maps and XHTML" below.
 
-* If you would like to use GMap macros directly in nodes, you will need to add the GMap Macro filter to an input format (or create a new input format that includes it). Read http://drupal.org/node/213156 for more information on input formats.
+* If you would like to use GMap macros directly in nodes, you will need to add the GMap Macro filter to an input format (or create a new input format that includes it). Read https://drupal.org/node/213156 for more information on input formats.
 
 If you are using the HTML filter, it will need to appear BEFORE the GMap filter; otherwise the HTML filter will remove the GMap code. To modify the order of filters in an input format, go to the "Rearrange" tab on the input format's configuration page (Administer > Site configuration > Input formats, then click "Configure" by your format).
 
@@ -46,15 +46,15 @@ Google Maps and XHTML
 * Google Maps may have rendering issues when not using an XHTML doctype; Google recommends that your theme be standards-compliant XHTML, and suggests the following DOCTYPE:
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+    "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 **editor's note: remove notes on VML when the api version is forced to >= 2.91.
 * For polylines to work in Internet Explorer, you will need to add
 the VML namespace to your <html> tag. Google recommends the following:
 
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+<html xmlns="https://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
 
-See http://code.google.com/apis/maps/documentation/index.html#XHTML_and_VML
+See https://code.google.com/apis/maps/documentation/index.html#XHTML_and_VML
 for more information. This won't affect you unless you're displaying lines on your Google Maps.
 
 
@@ -93,36 +93,36 @@ Markers
 
 The 'markers' directory contains many useful markers, and you can add custom markers by placing PNG files (markers must be in PNG format) in the markers directory and creating a ".ini" file for them. Use the existing .ini files as a guide--start with "markers/colors.ini".
 
-If you have created custom markers and are willing to release them under the GPL for inclusion in GMap, please file an issue in the issue queue at: http://drupal.org/project/issues/gmap
+If you have created custom markers and are willing to release them under the GPL for inclusion in GMap, please file an issue in the issue queue at: https://drupal.org/project/issues/gmap
 
 Demo
 ----
 
 GMap Macros (GMap module):
-http://www.webgeer.com/gmapdemo
+https://www.webgeer.com/gmapdemo
 
 GMap Macro Builder module:
-http://gmap.chicagotech.org/map/macro
+https://gmap.chicagotech.org/map/macro
 
 GMap Location module:
-http://photo-tips.ca/
+https://photo-tips.ca/
 
 GMap Location module user map:
-http://www.webgeer.com/map/users
+https://www.webgeer.com/map/users
 
 Credit
 ------
 
 Gmap for Drupal is part of the Mapedelic suite - a collection of Drupal modules providing a variety of mapping and geographic information functionality.  Work on Gmap for Drupal is sponsored by the Chicago Technology Cooperative.
-http://chicagotech.org
+https://chicagotech.org
 
 GMap was refactored and updated for Drupal 5 by Brandon Bergren (Bdragon).
-http://drupal.org/user/53081
+https://drupal.org/user/53081
 
 GMap for Drupal 4.6-4.7 was written by James Blake
-http://www.webgeer.com/James
+https://www.webgeer.com/James
 
 Thanks to the following for their contributions:
 * Robert Douglass, who revamped crucial parts and cleaned up many smaller things.
 * Paul Rollo, who explained how to include a location map in a block.
-* Nick Jehlen, who commissioned much of the initial work of gmap_location.module for the website http://enoughfear.com.
+* Nick Jehlen, who commissioned much of the initial work of gmap_location.module for the website https://enoughfear.com.

@@ -7,9 +7,9 @@
 
 /**
  * References:
- * [1] http://code.google.com/apis/maps/documentation/polylinealgorithm.html
- * [2] http://facstaff.unca.edu/mcmcclur/GoogleMaps/EncodePolyline/
- * [3] http://mathworld.wolfram.com/
+ * [1] https://code.google.com/apis/maps/documentation/polylinealgorithm.html
+ * [2] https://facstaff.unca.edu/mcmcclur/GoogleMaps/EncodePolyline/
+ * [3] https://mathworld.wolfram.com/
  */
 
 DEFINE('GMAP_DP_EPSILON', 0.00001);
@@ -20,7 +20,7 @@ DEFINE('GMAP_ZOOM_FACTOR', 2);
 /**
  * The following three functions will encode numbers so that they may be used
  * in "Encoded Polylines" on Google Maps. The encoding is described here:
- *   http://code.google.com/apis/maps/documentation/polylinealgorithm.html
+ *   https://code.google.com/apis/maps/documentation/polylinealgorithm.html
  *
  * Numbers for latitudes/longitudes and levels are encoded slightly
  * differently--when generating Encoded Polylines, latitudes and longitudes are
@@ -75,8 +75,8 @@ function gmap_polyutil_point_line_dist($q, $p1, $p2) {
 
   // Use the dot product to find where q lies with respect to the line segment
   // p1p2. For more information, see:
-  //   http://local.wasp.uwa.edu.au/~pbourke/geometry/pointline/
-  //   http://www.codeguru.com/forum/printthread.php?t=194400
+  //   https://local.wasp.uwa.edu.au/~pbourke/geometry/pointline/
+  //   https://www.codeguru.com/forum/printthread.php?t=194400
   $u = (($p2[1]-$p1[1])*($q[1]-$p1[1]) + ($p2[0]-$p1[0])*($q[0]-$p1[0])) / (pow($p2[1]-$p1[1], 2) + pow($p2[0]-$p1[0], 2));
 
   if ($u <= 0) { // point is not alongside segment, it is further off in $p1's direction
@@ -95,7 +95,7 @@ function gmap_polyutil_point_line_dist($q, $p1, $p2) {
 
 /**
  * Implementation of the Douglas-Peucker polyline simplification algorithm. See:
- * http://facstaff.unca.edu/mcmcclur/GoogleMaps/EncodePolyline/algorithm.html
+ * https://facstaff.unca.edu/mcmcclur/GoogleMaps/EncodePolyline/algorithm.html
  *
  * @param $points
  *   An array of coordinate pairs.

@@ -9,7 +9,7 @@ jQuery.noConflict();
 /**
  * Override jQuery.fn.init to guard against XSS attacks.
  *
- * See http://bugs.jquery.com/ticket/9521
+ * See https://bugs.jquery.com/ticket/9521
  */
 var jquery_init = $.fn.init;
 $.fn.init = function (selector, context, rootjQuery) {

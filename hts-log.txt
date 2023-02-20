@@ -1,118 +1,236 @@
-HTTrack3.48-19+htsswf+htsjava launched on Tue, 30 Aug 2016 11:40:48 at http://chapters.bc.edu +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp
-(winhttrack -qwr5%e0C2%Pxs2u1%s%uN100%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.05 [fr] (Win98; I)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://chapters.bc.edu -O1 "C:\My Web Sites\testmirror" +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp )
-
-Information, Warnings and Errors reported for this mirror:
-note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
-	such as username/password authentication for websites mirrored in this project
-	do not share these files/folders if you want these information to remain private
-
-11:40:48	Warning: 	Note: due to chapters.bc.edu remote robots.txt rules, links beginning with these path will be forbidden: /includes/, /misc/, /modules/, /profiles/, /scripts/, /themes/, /CHANGELOG.txt, /cron.php, /INSTALL.mysql.txt, /INSTALL.pgsql.txt, /INSTALL.sqlite.txt, /install.php, /INSTALL.txt, /LICENSE.txt, /MAINTAINERS.txt, /update.php, /UPGRADE.txt, /xmlrpc.php, /admin/, /comment/reply/, /filter/tips/, /node/add/, /search/, /user/register/, /user/password/, /user/login/, /user/logout/, /?q=admin/, /?q=comment/reply/, /?q=filter/tips/, /?q=node/add/, /?q=search/, /?q=user/password/, /?q=user/register/, /?q=user/login/, /?q=user/logout/ (see in the options to disable this)
-11:43:08	Error: 	"Not Found" (404) at link chapters.bc.edu/node/about (from chapters.bc.edu/node/1)
-11:43:08	Error: 	"Not Found" (404) at link chapters.bc.edu/node/chapter-4 (from chapters.bc.edu/node/1)
-11:43:09	Warning: 	Note: due to bostonliteraryhistory.com remote robots.txt rules, links beginning with these path will be forbidden: /includes/, /misc/, /modules/, /profiles/, /scripts/, /themes/, /CHANGELOG.txt, /cron.php, /INSTALL.mysql.txt, /INSTALL.pgsql.txt, /INSTALL.sqlite.txt, /install.php, /INSTALL.txt, /LICENSE.txt, /MAINTAINERS.txt, /update.php, /UPGRADE.txt, /xmlrpc.php, /admin/, /comment/reply/, /filter/tips/, /node/add/, /search/, /user/register/, /user/password/, /user/login/, /user/logout/, /?q=admin/, /?q=comment/reply/, /?q=filter/tips/, /?q=node/add/, /?q=search/, /?q=user/password/, /?q=user/register/, /?q=user/login/, /?q=user/logout/ (see in the options to disable this)
-11:43:09	Error: 	"Not Found" (404) at link bostonliteraryhistory.com/sites/all/themes/forgottenchapters/css/jplayer.blue.monday.jpg (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/css/jplayer.css?o1vzsw)
-11:43:09	Error: 	"Not Found" (404) at link bostonliteraryhistory.com/sites/all/themes/forgottenchapters/css/pbar-ani.gif (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/css/jplayer.css?o1vzsw)
-11:43:09	Error: 	"Not Found" (404) at link bostonliteraryhistory.com/sites/all/themes/forgottenchapters/css/jplayer.blue.monday.video.play.png (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/css/jplayer.css?o1vzsw)
-11:43:09	Error: 	"Not Found" (404) at link bostonliteraryhistory.com/sites/all/themes/forgottenchapters/css/jplayer.blue.monday.video.play.hover.png (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/css/jplayer.css?o1vzsw)
-12:22:48	Error: 	"Not Found" (404) at link chapters.bc.edu/has_js=1; path=/ (from bostonliteraryhistory.com/misc/drupal.js?o1vzsw)
-12:22:48	Error: 	"Not Found" (404) at link chapters.bc.edu/mousedown.jsp (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/js/jquery.jscrollpane.min.js?o1vzsw)
-12:22:48	Error: 	"Not Found" (404) at link chapters.bc.edu/click.jsp (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/js/jquery.jscrollpane.min.js?o1vzsw)
-12:22:48	Error: 	"Not Found" (404) at link chapters.bc.edu/mouseover.jsp (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/js/jquery.jscrollpane.min.js?o1vzsw)
-12:22:48	Error: 	"Not Found" (404) at link chapters.bc.edu/dragstart.jsp selectstart.jsp (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/js/jquery.jscrollpane.min.js?o1vzsw)
-12:22:48	Error: 	"Not Found" (404) at link chapters.bc.edu/mousemove.jsp (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/js/jquery.jscrollpane.min.js?o1vzsw)
-12:22:48	Error: 	"Not Found" (404) at link chapters.bc.edu/mouseup.jsp mouseleave.jsp (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/js/jquery.jscrollpane.min.js?o1vzsw)
-12:22:48	Error: 	"Not Found" (404) at link chapters.bc.edu/mouseup.jsp (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/js/jquery.jscrollpane.min.js?o1vzsw)
-12:22:48	Error: 	"Not Found" (404) at link chapters.bc.edu/dragstart.jsp selectstart.jsp mousemove.jsp mouseup.jsp mouseleave.jsp (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/js/jquery.jscrollpane.min.js?o1vzsw)
-12:22:48	Error: 	"Not Found" (404) at link chapters.bc.edu/focus.jsp (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/js/jquery.jscrollpane.min.js?o1vzsw)
-12:22:48	Error: 	"Not Found" (404) at link chapters.bc.edu/keydown.jsp keypress.jsp (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/js/jquery.jscrollpane.min.js?o1vzsw)
-12:22:48	Error: 	"Not Found" (404) at link chapters.bc.edu/keydown.jsp (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/js/jquery.jscrollpane.min.js?o1vzsw)
-12:22:48	Error: 	"Not Found" (404) at link chapters.bc.edu/keypress.jsp (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/js/jquery.jscrollpane.min.js?o1vzsw)
-12:22:48	Error: 	"Not Found" (404) at link chapters.bc.edu/touchstart.jsp (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/js/jquery.jscrollpane.min.js?o1vzsw)
-12:22:48	Error: 	"Not Found" (404) at link chapters.bc.edu/touchmove.jsp (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/js/jquery.jscrollpane.min.js?o1vzsw)
-12:22:48	Error: 	"Not Found" (404) at link chapters.bc.edu/touchend.jsp (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/js/jquery.jscrollpane.min.js?o1vzsw)
-12:25:32	Error: 	"Not Found" (404) at link chapters.bc.edu/blue.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:32	Error: 	"Not Found" (404) at link chapters.bc.edu/red.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:32	Error: 	"Not Found" (404) at link chapters.bc.edu/bred.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:32	Error: 	"Not Found" (404) at link chapters.bc.edu/orange.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/pyellow.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/yellow.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/pgreen.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/green.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/dgreen.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/fgreen.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/pblue.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/lblue.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/dblue.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/purple.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/pink.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/bpink.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/brown.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/white.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/lgray.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/gray.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/black.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/altblue.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/marker_monday.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/marker_tuesday.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/marker_wednesday.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/marker_thursday.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/marker_friday.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/marker_saturday.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/route1.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/route2.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number1.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number2.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number3.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number4.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number5.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number6.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number7.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number8.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number9.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number10.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number11.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number12.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number13.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number14.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number15.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number16.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number17.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number18.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number19.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number20.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number21.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number22.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number23.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number24.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number25.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number26.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number27.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number28.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number29.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number30.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number31.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number32.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number33.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number34.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number35.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number36.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number37.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number38.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number39.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number40.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/blank.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/cluster.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/drupal.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/vertex.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/letter1.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/letter2.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/letter3.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/letter4.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/letter5.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/letter6.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/letter7.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/letter8.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/letter9.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
-
-HTTrack Website Copier/3.48-19 mirror complete in 44 minutes 46 seconds : 870 links scanned, 763 files written (69515956 bytes overall) [61993697 bytes received at 23080 bytes/sec], 14027577 bytes transferred using HTTP compression in 464 files, ratio 25%, 4.4 requests per connection
-(105 errors, 2 warnings, 0 messages)
+HTTrack3.48-19+htsswf+htsjava launched on Tue, 30 Aug 2016 11:40:48 at https://chapters.bc.edu +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp
+https://
+(winhttrack -qwr5%e0C2%Pxs2u1%s%uN100%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.05 [fr] (Win98; I)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://chapters.bc.edu -O1 "C:\My Web Sites\testmirror" +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp )
+
+
+
+Information, Warnings and Errors reported for this mirror:
+
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+
+	such as username/password authentication for websites mirrored in this project
+
+	do not share these files/folders if you want these information to remain private
+
+
+
+11:40:48	Warning: 	Note: due to chapters.bc.edu remote robots.txt rules, links beginning with these path will be forbidden: /includes/, /misc/, /modules/, /profiles/, /scripts/, /themes/, /CHANGELOG.txt, /cron.php, /INSTALL.mysql.txt, /INSTALL.pgsql.txt, /INSTALL.sqlite.txt, /install.php, /INSTALL.txt, /LICENSE.txt, /MAINTAINERS.txt, /update.php, /UPGRADE.txt, /xmlrpc.php, /admin/, /comment/reply/, /filter/tips/, /node/add/, /search/, /user/register/, /user/password/, /user/login/, /user/logout/, /?q=admin/, /?q=comment/reply/, /?q=filter/tips/, /?q=node/add/, /?q=search/, /?q=user/password/, /?q=user/register/, /?q=user/login/, /?q=user/logout/ (see in the options to disable this)
+
+11:43:08	Error: 	"Not Found" (404) at link chapters.bc.edu/node/about (from chapters.bc.edu/node/1)
+
+11:43:08	Error: 	"Not Found" (404) at link chapters.bc.edu/node/chapter-4 (from chapters.bc.edu/node/1)
+
+11:43:09	Warning: 	Note: due to bostonliteraryhistory.com remote robots.txt rules, links beginning with these path will be forbidden: /includes/, /misc/, /modules/, /profiles/, /scripts/, /themes/, /CHANGELOG.txt, /cron.php, /INSTALL.mysql.txt, /INSTALL.pgsql.txt, /INSTALL.sqlite.txt, /install.php, /INSTALL.txt, /LICENSE.txt, /MAINTAINERS.txt, /update.php, /UPGRADE.txt, /xmlrpc.php, /admin/, /comment/reply/, /filter/tips/, /node/add/, /search/, /user/register/, /user/password/, /user/login/, /user/logout/, /?q=admin/, /?q=comment/reply/, /?q=filter/tips/, /?q=node/add/, /?q=search/, /?q=user/password/, /?q=user/register/, /?q=user/login/, /?q=user/logout/ (see in the options to disable this)
+
+11:43:09	Error: 	"Not Found" (404) at link bostonliteraryhistory.com/sites/all/themes/forgottenchapters/css/jplayer.blue.monday.jpg (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/css/jplayer.css?o1vzsw)
+
+11:43:09	Error: 	"Not Found" (404) at link bostonliteraryhistory.com/sites/all/themes/forgottenchapters/css/pbar-ani.gif (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/css/jplayer.css?o1vzsw)
+
+11:43:09	Error: 	"Not Found" (404) at link bostonliteraryhistory.com/sites/all/themes/forgottenchapters/css/jplayer.blue.monday.video.play.png (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/css/jplayer.css?o1vzsw)
+
+11:43:09	Error: 	"Not Found" (404) at link bostonliteraryhistory.com/sites/all/themes/forgottenchapters/css/jplayer.blue.monday.video.play.hover.png (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/css/jplayer.css?o1vzsw)
+
+12:22:48	Error: 	"Not Found" (404) at link chapters.bc.edu/has_js=1; path=/ (from bostonliteraryhistory.com/misc/drupal.js?o1vzsw)
+
+12:22:48	Error: 	"Not Found" (404) at link chapters.bc.edu/mousedown.jsp (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/js/jquery.jscrollpane.min.js?o1vzsw)
+
+12:22:48	Error: 	"Not Found" (404) at link chapters.bc.edu/click.jsp (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/js/jquery.jscrollpane.min.js?o1vzsw)
+
+12:22:48	Error: 	"Not Found" (404) at link chapters.bc.edu/mouseover.jsp (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/js/jquery.jscrollpane.min.js?o1vzsw)
+
+12:22:48	Error: 	"Not Found" (404) at link chapters.bc.edu/dragstart.jsp selectstart.jsp (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/js/jquery.jscrollpane.min.js?o1vzsw)
+
+12:22:48	Error: 	"Not Found" (404) at link chapters.bc.edu/mousemove.jsp (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/js/jquery.jscrollpane.min.js?o1vzsw)
+
+12:22:48	Error: 	"Not Found" (404) at link chapters.bc.edu/mouseup.jsp mouseleave.jsp (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/js/jquery.jscrollpane.min.js?o1vzsw)
+
+12:22:48	Error: 	"Not Found" (404) at link chapters.bc.edu/mouseup.jsp (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/js/jquery.jscrollpane.min.js?o1vzsw)
+
+12:22:48	Error: 	"Not Found" (404) at link chapters.bc.edu/dragstart.jsp selectstart.jsp mousemove.jsp mouseup.jsp mouseleave.jsp (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/js/jquery.jscrollpane.min.js?o1vzsw)
+
+12:22:48	Error: 	"Not Found" (404) at link chapters.bc.edu/focus.jsp (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/js/jquery.jscrollpane.min.js?o1vzsw)
+
+12:22:48	Error: 	"Not Found" (404) at link chapters.bc.edu/keydown.jsp keypress.jsp (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/js/jquery.jscrollpane.min.js?o1vzsw)
+
+12:22:48	Error: 	"Not Found" (404) at link chapters.bc.edu/keydown.jsp (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/js/jquery.jscrollpane.min.js?o1vzsw)
+
+12:22:48	Error: 	"Not Found" (404) at link chapters.bc.edu/keypress.jsp (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/js/jquery.jscrollpane.min.js?o1vzsw)
+
+12:22:48	Error: 	"Not Found" (404) at link chapters.bc.edu/touchstart.jsp (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/js/jquery.jscrollpane.min.js?o1vzsw)
+
+12:22:48	Error: 	"Not Found" (404) at link chapters.bc.edu/touchmove.jsp (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/js/jquery.jscrollpane.min.js?o1vzsw)
+
+12:22:48	Error: 	"Not Found" (404) at link chapters.bc.edu/touchend.jsp (from bostonliteraryhistory.com/sites/all/themes/forgottenchapters/js/jquery.jscrollpane.min.js?o1vzsw)
+
+12:25:32	Error: 	"Not Found" (404) at link chapters.bc.edu/blue.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:32	Error: 	"Not Found" (404) at link chapters.bc.edu/red.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:32	Error: 	"Not Found" (404) at link chapters.bc.edu/bred.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:32	Error: 	"Not Found" (404) at link chapters.bc.edu/orange.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/pyellow.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/yellow.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/pgreen.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/green.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/dgreen.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/fgreen.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/pblue.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/lblue.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/dblue.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/purple.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/pink.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/bpink.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/brown.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/white.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/lgray.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/gray.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/black.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/altblue.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/marker_monday.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/marker_tuesday.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/marker_wednesday.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/marker_thursday.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/marker_friday.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/marker_saturday.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/route1.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/route2.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number1.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number2.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number3.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number4.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number5.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number6.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number7.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number8.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number9.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number10.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number11.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number12.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number13.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number14.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number15.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number16.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number17.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number18.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number19.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number20.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number21.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number22.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number23.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number24.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number25.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number26.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number27.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number28.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number29.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number30.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number31.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number32.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number33.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number34.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number35.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number36.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number37.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number38.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number39.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/number40.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/blank.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/cluster.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/drupal.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/vertex.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/letter1.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/letter2.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/letter3.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/letter4.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/letter5.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/letter6.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/letter7.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/letter8.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+12:25:33	Error: 	"Not Found" (404) at link chapters.bc.edu/letter9.png (from chapters.bc.edu/sites/default/files/js/gmap_markers.js)
+
+
+
+HTTrack Website Copier/3.48-19 mirror complete in 44 minutes 46 seconds : 870 links scanned, 763 files written (69515956 bytes overall) [61993697 bytes received at 23080 bytes/sec], 14027577 bytes transferred using HTTP compression in 464 files, ratio 25%, 4.4 requests per connection
+
+(105 errors, 2 warnings, 0 messages)
+

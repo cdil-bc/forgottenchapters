@@ -251,7 +251,7 @@ html.js .js-hide {
 /**
  * Markup free clearing.
  *
- * @see http://perishablepress.com/press/2009/12/06/new-clearfix-hack
+ * @see https://perishablepress.com/press/2009/12/06/new-clearfix-hack
  */
 .clearfix:after {
   content: ".";

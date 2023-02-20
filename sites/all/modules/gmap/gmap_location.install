@@ -169,6 +169,6 @@ function gmap_location_update_5101() {
  */
 function gmap_location_update_5102() {
   $ret = array();
-  drupal_set_message(t('You are upgrading from an ancient GMap version. Please see <a href="@url">this issue</a>.', array('@url' => 'http://drupal.org/node/392130')));
+  drupal_set_message(t('You are upgrading from an ancient GMap version. Please see <a href="@url">this issue</a>.', array('@url' => 'https://drupal.org/node/392130')));
   return $ret;
 }

@@ -58,7 +58,7 @@ Drupal.gmap.addHandler('gmap', function (elem) {
 // Store original implementations of overridden functions
 Clusterer.origFunctions = {};
 
-// Alternate popup code from: http://drupal.org/node/155104#comment-574696
+// Alternate popup code from: https://drupal.org/node/155104#comment-574696
 Clusterer.origFunctions.PopUp = Clusterer.PopUp;
 Clusterer.PopUp = function (cluster) {
   var mode = Drupal.settings.gmap_markermanager.popup_mode;

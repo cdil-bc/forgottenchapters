@@ -12,9 +12,9 @@
  *
  * Minimum version last changed on: June 9 2008
  *
- * Reason: G_SATELLITE_3D_MAP support in gmap_addons. See http://code.google.com/apis/earth/.
+ * Reason: G_SATELLITE_3D_MAP support in gmap_addons. See https://code.google.com/apis/earth/.
  *
- * See http://groups.google.com/group/Google-Maps-API/web/api-version-changes
+ * See https://groups.google.com/group/Google-Maps-API/web/api-version-changes
  * for details on using other version numbers.
  */
 define('GMAP_API_VERSION', '3');
@@ -277,7 +277,7 @@ function _gmap_base_js() {
 
 /**
  * @deprecated will be removed in next major release upgrade
- * @see http://drupal.org/node/1931138#comment-7137394 deprecated patch
+ * @see https://drupal.org/node/1931138#comment-7137394 deprecated patch
  * @todo change record
  * @todo remove this in next major release upgrade (7.x-3.x or 8.x-1.x)
  */
@@ -1144,9 +1144,9 @@ function gmap_decimal($num) {
  * This is an easy, quick way to geocode a single address.
  * Note: This is a REMOTE CALL TO GOOGLE. Do NOT use this where performance matters,
  * as it could possibly take several seconds for this function to return.
- * See http://www.google.com/apis/maps/documentation/reference.html#GGeoStatusCode
+ * See https://www.google.com/apis/maps/documentation/reference.html#GGeoStatusCode
  *  for a description of the possible status codes.
- * @see http://drupal.org/node/1940474
+ * @see https://drupal.org/node/1940474
  */
 function gmap_geocode($address, $tld = 'com') {
   $data = drupal_http_request(gmap_views_protocol() . '://maps.googleapis.' . $tld . '/maps/api/geocode/json?address=' . urlencode($address) . '&sensor=false');
@@ -1255,7 +1255,7 @@ function gmap_keys_service() {
     // @greenSkin:
     // What is your reasoning behind predefining this?
     // I'll avoid overriding you for now, but this seems rather arbitrary.
-    // Reference: http://drupal.org/cvs?commit=310498
+    // Reference: https://drupal.org/cvs?commit=310498
 
     // Probe keys to determine if it is defining our key for us.
     $test = array();

@@ -2,7 +2,7 @@
 
 /**
  * The default font size is 16px x 81.3% = 13px
- * Use http://pxtoem.com to calculate proper font size and scale.
+ * Use https://pxtoem.com to calculate proper font size and scale.
  *
  * The font size is set on the html element so we can dynamically
  * resize the font using body classes.

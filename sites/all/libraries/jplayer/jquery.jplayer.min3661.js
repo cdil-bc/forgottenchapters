@@ -1,11 +1,11 @@
 /*
  * jPlayer Plugin for jQuery JavaScript Library
- * http://www.happyworm.com/jquery/jplayer
+ * https://www.happyworm.com/jquery/jplayer
  *
  * Copyright (c) 2009 - 2010 Happyworm Ltd
  * Dual licensed under the MIT and GPL licenses.
- *  - http://www.opensource.org/licenses/mit-license.php
- *  - http://www.gnu.org/copyleft/gpl.html
+ *  - https://www.opensource.org/licenses/mit-license.php
+ *  - https://www.gnu.org/copyleft/gpl.html
  *
  * Author: Mark J Panaghiston
  * Version: 2.0.0
@@ -30,7 +30,7 @@ a.html[a.format[g].media].available&&""!==a.htmlElement[a.format[g].media].canPl
 this.flash.support={};c.each(this.formats,function(e,g){a.html.support[g]=a.html.canPlay[g]&&a.html.desired;a.flash.support[g]=a.flash.canPlay[g]&&a.flash.desired});this.html.used=false;this.flash.used=false;c.each(this.solutions,function(e,g){c.each(a.formats,function(i,j){if(a[g].support[j]){a[g].used=true;return false}})});this.html.used||this.flash.used||this._error({type:c.jPlayer.error.NO_SOLUTION,context:"{solution:'"+this.options.solution+"', supplied:'"+this.options.supplied+"'}",message:c.jPlayer.errorMsg.NO_SOLUTION,
 hint:c.jPlayer.errorHint.NO_SOLUTION});this.html.active=false;this.html.audio.gate=false;this.html.video.gate=false;this.flash.active=false;this.flash.gate=false;if(this.flash.used){var b="id="+escape(this.internal.self.id)+"&vol="+this.status.volume+"&muted="+this.status.muted;if(c.browser.msie&&Number(c.browser.version)<=8){var d='<object id="'+this.internal.flash.id+'"';d+=' classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"';d+=' codebase="'+document.URL.substring(0,document.URL.indexOf(":"))+
 '://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab"';d+=' type="application/x-shockwave-flash"';d+=' width="0" height="0">';d+="</object>";var f=[];f[0]='<param name="movie" value="'+this.internal.flash.swf+'" />';f[1]='<param name="quality" value="high" />';f[2]='<param name="FlashVars" value="'+b+'" />';f[3]='<param name="allowScriptAccess" value="always" />';f[4]='<param name="bgcolor" value="'+this.options.backgroundColor+'" />';b=document.createElement(d);for(d=0;d<f.length;d++)b.appendChild(document.createElement(f[d]));
-this.element.append(b)}else{f='<embed name="'+this.internal.flash.id+'" id="'+this.internal.flash.id+'" src="'+this.internal.flash.swf+'"';f+=' width="0" height="0" bgcolor="'+this.options.backgroundColor+'"';f+=' quality="high" FlashVars="'+b+'"';f+=' allowScriptAccess="always"';f+=' type="application/x-shockwave-flash" pluginspage="external.html?link=http://www.macromedia.com/go/getflashplayer" />';this.element.append(f)}this.internal.flash.jq=c("#"+this.internal.flash.id);this.internal.flash.jq.css({width:"0px",
+this.element.append(b)}else{f='<embed name="'+this.internal.flash.id+'" id="'+this.internal.flash.id+'" src="'+this.internal.flash.swf+'"';f+=' width="0" height="0" bgcolor="'+this.options.backgroundColor+'"';f+=' quality="high" FlashVars="'+b+'"';f+=' allowScriptAccess="always"';f+=' type="application/x-shockwave-flash" pluginspage="external.html?link=https://www.macromedia.com/go/getflashplayer" />';this.element.append(f)}this.internal.flash.jq=c("#"+this.internal.flash.id);this.internal.flash.jq.css({width:"0px",
 height:"0px"})}if(this.html.used){if(this.html.audio.available){this._addHtmlEventListeners(this.htmlElement.audio,this.html.audio);this.element.append(this.htmlElement.audio);this.internal.audio.jq=c("#"+this.internal.audio.id)}if(this.html.video.available){this._addHtmlEventListeners(this.htmlElement.video,this.html.video);this.element.append(this.htmlElement.video);this.internal.video.jq=c("#"+this.internal.video.id);this.internal.video.jq.css({width:"0px",height:"0px"})}}this.html.used&&!this.flash.used&&
 window.setTimeout(function(){a.internal.ready=true;a.version.flash="n/a";a._trigger(c.jPlayer.event.ready)},100);c.each(this.options.cssSelector,function(e,g){a._cssSelector(e,g)});this._updateInterface();this._updateButtons(false);this._updateVolume(this.status.volume);this._updateMute(this.status.muted);this.css.jq.videoPlay.length&&this.css.jq.videoPlay.hide();c.jPlayer.prototype.count++},destroy:function(){this._resetStatus();this._updateInterface();this._seeked();this.css.jq.currentTime.length&&
 this.css.jq.currentTime.text("");this.css.jq.duration.length&&this.css.jq.duration.text("");this.status.srcSet&&this.pause();c.each(this.css.jq,function(a,b){b.unbind(".jPlayer")});this.element.removeData("jPlayer");this.element.unbind(".jPlayer");this.element.empty();this.instances[this.internal.instance]=h},enable:function(){},disable:function(){},_addHtmlEventListeners:function(a,b){var d=this;a.preload=this.options.preload;a.muted=this.options.muted;a.addEventListener("progress",function(){if(b.gate&&
