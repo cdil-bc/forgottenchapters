@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.chapters.bc.edu	TRUE	/	FALSE	1999999999	SESS7aece787fc50fa12b9cdc3160c8e5822	uCLzzr1pWKOURcSppdjWsu3j7kgHYME-xXKPC4hP9Bg
+

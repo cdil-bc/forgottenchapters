@@ -1,0 +1,1369 @@
+/* 03-27-2012 v1 */
+
+#tasks{
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 100px;
+    width: 100px;
+    z-index: 100;
+}
+ul.primary {
+  margin:0;
+  width:100px;
+  float:right;
+  padding-top:10px;
+}
+
+ul.primary li {
+  display:block;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+
+#body-full,
+#body-more{
+  display:none;
+}
+#columns{
+  width:1024px;
+}
+
+.front .article > header {
+
+  margin-top:30px;
+}
+.front .article nav{
+  float:right;
+}
+.front .article nav a{
+  text-decoration:none;
+  color:#872011;
+}
+
+.front .article .article-content img{
+  margin-bottom:.5em;
+}
+/******* Block Fixes ********/
+
+.region-leaderboard #block-block-1{
+  float:left;
+  padding-top:5px;
+}
+
+.region-leaderboard #block-search-form {
+  float:right;
+  padding-top:10px;
+}
+.region-leaderboard #block-search-form .block-inner,
+.not-front #block-system-main .block-inner{
+  margin-left:0;
+}
+.region-leaderboard #block-search-form #edit-search-block-form--2{
+  width:330px;
+  height:20px;
+  padding-left:1em;
+  font-size:1.1em;
+  background:#e3ddc7 url('../images/search_bg.jpg') right center no-repeat;
+  -webkit-appearance:none;
+}
+.region-leaderboard #block-search-form #edit-actions{
+  display:none;
+}
+
+.region-leaderboard #block-block-1 #audio-tour-link a{
+  background:transparent url('../images/view-site.png') top left no-repeat;
+  display:block;
+  width:372px;
+  height:31px;
+  overflow:hiddden;
+  text-indent:-999em;
+}
+
+ 
+.front .region-header #block-forgottenchapters-helper-introduction-block .block-content .article-content{
+  font-size:16px;
+  width:300px;
+  text-align:justify;
+}
+.front .region-header #block-forgottenchapters-helper-introduction-block .block-content .article-content p{
+  margin:0;
+}
+
+.front .region-header #block-forgottenchapters-helper-introduction-block .block-content h1.article-title a{
+  background:transparent url('../images/intro_header.png') top left no-repeat;
+  display:block;
+  width:380px;
+  height:75px;
+  overflow:hiddden;
+  text-indent:-999em;
+}
+#content .article nav {
+  display:none;
+}
+.front #main-content > header {
+  display:none;
+} 
+
+header .block{
+  margin-bottom:0;
+}
+
+#content #article-1 {
+  padding-left:0;
+  margin-bottom: -5px;
+}
+
+
+#content #article-1 .front-chapter a{
+  width:681px;
+  height:76px;
+  display:block;
+  overflow:hiddden;
+  text-indent:-999em;
+}
+#content #article-1 #front-chapter-1 a{
+  background:transparent url('../images/front-chapter-1.jpg') top left no-repeat;
+}
+#content #article-1 #front-chapter-2 a{
+  background:transparent url('../images/front-chapter-2.jpg') top left no-repeat;
+}
+#content #article-1 #front-chapter-3 a{
+  background:transparent url('../images/front-chapter-3.jpg') top left no-repeat;
+}
+#content #article-1 #front-chapter-4 a{
+  height:74px;
+  background:transparent 	('../images/front-chapter-4.jpg') top left no-repeat;
+}
+#content #article-1 #front-chapter-5 a{
+  height:74px;
+  background:transparent url('../images/front-chapter-5.jpg') top left no-repeat;
+}
+#content #article-1 #front-chapter-6 a{
+  background:transparent url('../images/front-chapter-6.jpg') top left no-repeat;
+}
+
+#content #article-1 #front-left{
+  float:left;
+  width:681px;
+  padding-right:0;
+  margin-right:1px;
+}
+#content #article-1 #front-right{
+  float:left;
+  width:321px;
+}
+#content #article-1 #front-about-exhibit a{
+  background:transparent url('../images/front-about-exhibit.jpg') top left no-repeat;
+  display:block;
+  width:321px;
+  height:77px;
+  overflow:hiddden;
+  text-indent:-999em;
+}
+#content #article-1 #front-literary-history a{
+  background:transparent url('../images/front-literary-history.jpg') top left no-repeat;
+  display:block;
+  width:321px;
+  height:420px;
+  overflow:hiddden;
+  text-indent:-999em;
+}
+
+#page > footer .block,
+#page > footer .block p{
+  margin:0;
+}
+.region-leaderboard form{
+  margin:0;
+}
+
+#primary-menu-bar{
+  background:transparent url('../images/main-menu-bg.jpg') top left repeat-x;
+  height:48px;
+}
+
+#primary-menu-bar ul.primary-menu li{
+  background:transparent url('../images/menu/menu-seperator.png') top right no-repeat;
+  height:47px;
+  margin-top:1px;
+  padding-right:4px;
+}
+#primary-menu-bar ul.primary-menu li.last{
+  background-image:none;
+}
+#primary-menu-bar ul.primary-menu li a{
+    overflow:hiddden;
+  text-indent:-999em;
+  height:47px;
+  padding:0;
+  min-width:70px;
+}
+#primary-menu-bar ul.primary-menu li.home a{
+  background:transparent url('../images/menu/home.png') top left no-repeat;
+  width:70px;
+}
+#primary-menu-bar ul.primary-menu li.home a:hover,
+#primary-menu-bar ul.primary-menu li.home-active a{
+  background:transparent url('../images/menu/home.png') 0 -47px no-repeat;
+}
+
+#primary-menu-bar ul.primary-menu li.about-the-exhibit a{
+  background:transparent url('../images/menu/about.png') top left no-repeat;
+  width:77px;
+}
+#primary-menu-bar ul.primary-menu li.about-the-exhibit a:hover,
+#primary-menu-bar ul.primary-menu li.about-the-exhibit-active a{
+  background:transparent url('../images/menu/about.png') 0 -47px no-repeat;
+}
+
+#primary-menu-bar ul.primary-menu li.chapter-1 a{
+  background:transparent url('../images/menu/chapter1.png') top left no-repeat;
+  width:138px;
+}
+#primary-menu-bar ul.primary-menu li.chapter-1 a:hover,
+#primary-menu-bar ul.primary-menu li.chapter-1-active a{
+  background:transparent url('../images/menu/chapter1.png') 0 -47px no-repeat;
+}
+
+#primary-menu-bar ul.primary-menu li.chapter-2 a{
+  background:transparent url('../images/menu/chapter2.png') top left no-repeat;
+  width:138px;
+}
+#primary-menu-bar ul.primary-menu li.chapter-2 a:hover,
+#primary-menu-bar ul.primary-menu li.chapter-2-active a{
+  background:transparent url('../images/menu/chapter2.png') 0 -47px no-repeat;
+}
+
+#primary-menu-bar ul.primary-menu li.chapter-3 a{
+  background:transparent url('../images/menu/chapter3.png') top left no-repeat;
+  width:138px;
+}
+#primary-menu-bar ul.primary-menu li.chapter-3 a:hover,
+#primary-menu-bar ul.primary-menu li.chapter-3-active a{
+  background:transparent url('../images/menu/chapter3.png') 0 -47px no-repeat;
+}
+#primary-menu-bar ul.primary-menu li.chapter-4 a{
+  background:transparent url('../images/menu/chapter4.png') top left no-repeat;
+  width:138px;
+}
+#primary-menu-bar ul.primary-menu li.chapter-4 a:hover,
+#primary-menu-bar ul.primary-menu li.chapter-4-active a{
+  background:transparent url('../images/menu/chapter4.png') 0 -47px no-repeat;
+}
+#primary-menu-bar ul.primary-menu li.chapter-5 a{
+  background:transparent url('../images/menu/chapter5.png') top left no-repeat;
+  width:138px;
+}
+#primary-menu-bar ul.primary-menu li.chapter-5 a:hover,
+#primary-menu-bar ul.primary-menu li.chapter-5-active a{
+  background:transparent url('../images/menu/chapter5.png') 0 -47px no-repeat;
+}
+#primary-menu-bar ul.primary-menu li.chapter-6 a{
+  background:transparent url('../images/menu/chapter6.png') top left no-repeat;
+  width:138px;
+}
+#primary-menu-bar ul.primary-menu li.chapter-6 a:hover,
+#primary-menu-bar ul.primary-menu li.chapter-6-active a{
+  background:transparent url('../images/menu/chapter6.png') 0 -47px no-repeat;
+}
+#primary-menu-bar nav{
+  margin:0;
+}
+
+/*******************************************
+  page-type-page Theme the Page layout for the basic page
+********************************************/
+
+header h1#page-title {
+	font-size: 28px;
+	letter-spacing: 2px;
+	line-height: 30px;
+	width: 450px;
+}
+.page-search #breadcrumb{
+  display:none;
+}
+.page-search header{
+  margin-top:2em;
+  float:right;
+  width:500px;
+  clear:both;
+  margin-right:50px;
+}
+.page-search #block-system-main #search-form{
+  float:right;
+  width:500px;
+  clear:both;
+  margin-right:50px;
+}
+.page-search #block-system-main h2{
+  clear:both;
+  margin-left:6em;
+  margin-right:6em;
+  margin-top:1em;
+}
+.search-results{
+  clear:both;
+  margin-left:6em;
+  margin-right:6em;
+  margin-top:1em;
+}
+header h2#chapter_title {
+	font-size: 26px;
+	letter-spacing: 2px;
+	line-height: 30px;
+	width: 450px;
+}
+
+header h4#chapter_subtitle {
+	float:left;
+	color:#591c10;
+}
+
+#main-content h1#page-title{
+  
+}
+
+header p{
+  margin:0;
+}
+
+.page-type-page h1.page-title{
+  display:none;
+}
+.page-type-page #main-content header,
+.page-type-exhibit-item #main-content header{
+  padding-right:3em;
+  margin-left:405px;
+  border-bottom:1px solid #d1cab2;
+  margin-top:.5em;
+  margin-bottom:1em;
+}
+.page-type-page #main-content header a,
+.page-type-exhibit-item #main-content header a{
+  margin-right:.5em;
+  margin-left:.5em;
+}
+.page-type-exhibit-item #main-content header{
+  border:none;
+}
+.page-type-exhibit-item h1#article-title{
+
+}
+.page-type-exhibit-item h1.article-title a{  
+  color:#311d16;
+  text-decoration:none;
+  font-size:16px;
+}
+.page-type-page #main-content header h1#page-title{
+  font-size:30px;
+  font-weight:normal;
+  width:450px;
+  float:left;
+}
+.page-type-exhibit-item #main-content header h1#page-title{
+  display:none;
+}
+.page-type-page #main-content header #nav,
+.page-type-exhibit-item #main-content header #nav{
+  padding-top:1.5em;
+  float:right;
+}
+.page-type-page #main-content header #nav a,
+.page-type-exhibit-item #main-content header #nav a{
+  color:#872011;
+  padding-top:1.7em;
+}
+.page-type-page #main-content #content,
+.page-type-exhibit-item #main-content #content{
+	width: auto;
+}
+.page-type-page #main-content #node-sidebar-right,
+.page-type-exhibit-item #main-content #node-sidebar-right{
+  float:left;
+  width:375px;
+}
+
+.page-type-exhibit-item #main-content #node-sidebar-right{
+  margin-top:5em;
+}
+
+.page-type-exhibit-item #main-content #node-sidebar-right h1{
+  font-weight:normal;
+}
+
+.page-type-exhibit-item #main-content #node-sidebar-right h1.article-title{
+  background:transparent url('../images/left-break.jpg') bottom left no-repeat;
+  padding-bottom:1em;
+  padding-left:30px;
+  padding-right:40px;
+  margin-bottom:1em;
+  margin-top:1em;
+}
+.page-type-exhibit-item #main-content #node-sidebar-right h1.article-title p{
+  margin:0;
+}
+
+.page-type-exhibit-item #main-content #node-sidebar-right .field-name-body,
+.page-type-exhibit-item #main-content #node-sidebar-right .field-name-field-source,
+.page-type-exhibit-item #main-content #node-sidebar-right .field-name-field-audio{
+  padding-left:30px;
+  padding-right:40px;
+}
+.page-type-exhibit-item #main-content #node-sidebar-right .field-name-field-audio .jp-audio{
+  float:left;
+  padding-right:.5em;
+}
+
+.page-type-exhibit-item #main-content #node-sidebar-main .field-type-image{
+  margin-bottom:2em;
+}
+.page-type-exhibit-item #main-content #node-sidebar-right .field-name-field-source a{
+  color:#872011;
+}
+
+.article-content #nav {
+    clear: both;
+    float: right;
+    margin-right: -1.5em;
+}
+
+.article-content #nav a{
+  color:#872011;
+  padding-top:1.7em;
+  text-transform:uppercase;
+  margin-left:.5em;
+  margin-right:.5em;
+}
+
+.page-type-page #main-content #node-sidebar-right .field-name-field-quote {
+  width:330px;
+  padding-left:35px;
+  font-size:20px;
+  font-style:italic;
+}
+
+.page-type-page #main-content #node-sidebar-right .field-name-field-quote .quote{
+  padding-top:1em;
+  font-size:22px;
+  font-style:italic;
+}
+.page-type-page #main-content #node-sidebar-right .field-name-field-quote .quote_by{
+  font-size:13px;
+}
+
+.page-type-page #main-content #node-sidebar-main,
+.page-type-exhibit-item #main-content #node-sidebar-main{
+  float:right;
+  width:570px;
+  padding-right:3em;
+  border-bottom: 1px solid #D1CAB2;
+  margin-bottom:1em;
+}
+.page-type-exhibit-item #main-content #node-sidebar-main{
+  border:none;
+}
+
+.page-type-page #main-content #node-sidebar-main p{
+  font-size:14px;
+}
+
+.region-highlighted {
+  display:none;
+  background:#564a30 url('../images/books_index.jpg') top left no-repeat;
+}
+.region-highlighted #block-forgottenchapters-helper-chapter-index {
+
+}
+.region-highlighted #block-forgottenchapters-helper-chapter-index .block-inner .block-content{
+  width:575px;
+  float:right; 
+}
+.region-highlighted #block-forgottenchapters-helper-chapter-index ul{
+  list-style:none;
+  margin-top:5px;
+  border-top:1px solid #8b8166;
+  margin-bottom:15px;
+}
+.region-highlighted #block-forgottenchapters-helper-chapter-index ul li{
+  border-bottom:1px solid #8b8166;
+}
+.region-highlighted #block-forgottenchapters-helper-chapter-index ul li a{
+  text-decoration:none;
+  padding:2px 20px 2px 10px;
+  display:block;
+  color:#e2ddc9;
+}
+.region-highlighted #block-forgottenchapters-helper-chapter-index ul li a.active,
+.region-highlighted #block-forgottenchapters-helper-chapter-index ul li a:hover{
+ background:#8b5b1b;
+}
+ 
+#transcript_wrapper{
+  display:none;
+}
+
+.section-chapter5 {
+
+}
+#chapter_nav{
+  float:left;
+  margin-top:19px;
+}
+#chapter_nav a{
+  padding:3px 10px 3px 10px;
+  margin-right:5px;
+  color:#e3ddc7;
+  text-decoration:none;
+}
+a.view_transcript{
+  color:#872011;
+  text-transform:uppercase;
+  padding:.2em 1em .5em 2.5em;
+}
+
+.view-maps .view-header{
+  float:left;
+  width:305px;
+  margin-top:10em;
+  padding-left:3em;
+  padding-right:2em;
+}
+
+.view-maps .view-content{
+  width:630px;
+  float:right;
+  padding-top:1em;
+}
+.section-map #main-content header{
+  width:550px;
+  float:right;
+  margin:1em;
+  display:none;
+}
+
+.view-id-mobile_audio_tour .views-field-field-audio{
+  float:left;
+  width:34px;
+  height:34px;
+  clear:left;
+}
+.view-id-mobile_audio_tour .views-field-title{
+  font-size:26px;
+	margin-left:1em;
+}
+.view-id-mobile_audio_tour .views-field-title a{
+  text-decoration:none;
+}
+
+
+
+/* --------TIMS TWEAKS-----------*/
+
+html {
+	font-size:95%;
+}
+
+body {
+	font-family:"Palatino Linotype",Palatino,Georgia,serif;
+}
+
+p {
+	margin:0 0 1em;
+}
+	
+/*  Topbar */
+#block-menu-menu-secondary-links {
+	float:right;
+	padding-top:8px;
+	height:20px;
+}
+
+#block-menu-menu-secondary-links ul li {
+	list-style:none;
+	   padding-right:2px
+}
+
+#block-menu-menu-secondary-links a {
+	text-decoration:none;
+	color:#BFB9A1;
+	font-size:100%;
+    font-weight:normal;
+}
+
+.region-leaderboard {
+	height:32px;
+}
+
+.region-leaderboard .block {
+	margin-top:-6px;
+}
+
+.front #block-menu-menu-secondary-links a {
+display:none;    
+}
+
+/*  all browsers*/
+.region-leaderboard #block-search-form #edit-search-block-form--2 {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: #9E937C url(../images/search_bg.jpg) no-repeat 100% 50%;
+    border-color: #311B16;
+    width: 150px;
+    height: 14px;
+    margin-right: 1.7em;
+    font-size: .8em;
+    margin-top: 2px;
+}
+
+/* webkitbrowsers */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+.region-leaderboard #block-search-form #edit-search-block-form--2 {
+    height: 20px;
+    margin-right: 1.4em;
+    font-size: 1.1em;
+    margin-top: 2px;
+}
+
+.front .region-leaderboard #block-search-form #edit-search-block-form--2 {
+    height: 20px;
+    margin-right: 2.5em;
+    font-size: 1.1em;
+    margin-top: 2px;
+}
+
+
+}
+
+	
+/*  Main Navigation*/
+#primary-menu-bar ul.primary-menu li.map a {
+    text-indent: 0px;
+    overflow: visible;
+    text-align: center;
+    padding-top: 11px;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 5px;
+    font-family: Georgia,serif;
+}
+
+#primary-menu-bar ul.primary-menu li.map a.active {
+color:#872011;
+}
+	
+/* Chapter Titles */
+header h2#chapter_title {
+	text-transform:none;
+	width:570px;
+    margin-left:3px
+}
+
+.section-chapter-5 header h2#chapter_title {
+	font-size:1.9em;
+}
+
+
+/* Chapter SubTitles */
+
+.section-chapter-2 header h4#chapter_subtitle {
+    text-transform: none;
+    color: #311B16;
+    margin-top: 5px;
+    margin-right: 20px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    float: left;
+    font-size: 14px;
+}
+
+.section-chapter-3 header h4#chapter_subtitle {
+    text-transform: none;
+    color: #311B16;
+    margin-top: 5px;
+    margin-right: 20px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    float: left;
+    font-size: 1.3em;
+}
+
+
+#page > header {
+	width:615px;
+}
+
+
+	
+/*  Homepage */
+
+#page {
+	background-position:center 75px;
+	min-height: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.front #page > header {
+height: 405px;
+border-bottom: 0px solid #908873;
+border-top: 2px solid #908873;
+margin-bottom: 8px;
+width: 100%;
+}
+
+.front .region-header {
+    width: 338px;
+    height: 550px;
+    float: right;
+    clear: left;
+    margin-top: .5em;
+}
+
+.front .region-header #block-forgottenchapters-helper-introduction-block .block-content .article-content {
+    width: 275px;
+}
+
+#content #article-1 #front-literary-history a {
+	height:380px;
+}
+
+.region-highlighted #block-forgottenchapters-helper-chapter-index ul li a.active,.region-highlighted #block-forgottenchapters-helper-chapter-index ul li a:hover {
+	background:#591C10;
+}
+
+#content #article-1 #front-right {
+    width: 321px;
+    margin-left: 0;
+    height: 433px;
+}
+
+
+.front .region-header #block-forgottenchapters-helper-introduction-block .block-content .article-content p.tagline {
+    margin-top: 2.5em;
+    font-weight: bold;
+    font-size: 120%;
+    text-align: left;
+    float: left;
+    width: 300px;
+    letter-spacing: 0;
+}
+
+#content #article-1 #front-about-exhibit a {
+    height: 74px;
+    margin-left: 3px;
+}
+
+#content #article-1 #front-literary-history a {
+    background: transparent url('../images/maphome.jpg') top left no-repeat;
+    margin-left:3px;
+}
+
+
+.page-node-55 .tagline {
+    display: none;
+}
+
+.front .region-header #block-forgottenchapters-helper-introduction-block .block-content .article-content p.exhibitlocations {
+    margin-bottom: 12px;
+    font-variant: small-caps;
+    font-size: 115%;
+    width: 320px;
+    margin-top: 4.5em;
+}
+
+.front .node-readmore a {
+    display: block;
+    margin-right: 2.7em;
+    margin-top: 0px;
+    margin-top:-10px;
+    display:none;
+}
+
+.front .exhibitdate{
+    font-weight: normal;
+    color: #311B16;
+}
+
+body.page-node-55 .exhibitdate {
+    display: none;
+}
+
+.front .region-header #block-forgottenchapters-helper-introduction-block .block-content h1.article-title a {
+    display: none;
+}
+
+
+#content #article-1 .front-chapter a {
+    height: 71px;
+    margin-right: 4px
+;
+}
+
+body.front #article-55 {
+    margin-top: 0;
+}
+.front #main-content #content {
+margin-bottom: 1em;
+}
+	
+/* Chapter Index */
+
+#chapter_nav {
+    margin-top: 10px;
+    position: absolute;
+    top: 155px;
+    left: 2px;
+}
+
+body.section-chapter-1 #chapter_nav {
+    left: -34px;
+}
+
+
+.section-chapter-1 header img {
+    margin-top: 1.8em;
+}
+
+.section-chapter-1 #chapter_nav {
+    margin-top: 10px;
+    position: relative;
+    left: -32px;
+    top: 0;
+}
+
+#chapter_nav a {
+	background:transparent url() left top repeat-x;
+	color:#872011;
+    font-weight: normal;
+    font-size: 95%;
+}
+
+.region-highlighted {
+    background: transparent;
+}
+
+.region-highlighted .block-content {
+    padding-top: 40px;
+    width: 575px;
+    background: #564A30;
+    margin-right: 2em;
+    padding-bottom: 1.5em;
+}
+
+#chapter_nav a.indexOpened {
+    font-weight: bold;
+    position: absolute;
+    top: 45px;
+    left: 12px;
+    width: 100px;
+    color: #fff;
+    z-index: 100;
+    padding-left: 23px;
+    background: transparent url('../images/closeindex.jpg') center left no-repeat;
+}
+
+body.section-chapter-1 #chapter_nav a.indexOpened {
+    left: 40px;
+}
+
+.region-highlighted #block-forgottenchapters-helper-chapter-index ul {
+    margin: 0 0 0 0px;
+}
+
+.region-highlighted #block-forgottenchapters-helper-chapter-index ul li a {
+    padding: 5px 10px 5px 20px;
+    font-size: 95%;
+}
+	
+/* ----Quote Formatting ------*/
+
+.page-type-page #main-content #node-sidebar-right .field-name-field-quote {
+    margin-top: 0;
+}
+
+
+/* Exhibit item formats */
+
+.page-type-exhibit-item #main-content #node-sidebar-right p {
+    margin-bottom: .5em;
+}
+
+
+.page-type-exhibit-item #main-content #node-sidebar-right blockquote {
+    margin: .5em 0px .7em -3em;
+    font-size: 17px;
+    font-style: italic;
+    float: none;
+    color: #311B16;
+}
+
+.page-type-exhibit-item #main-content #node-sidebar-right blockquote p {
+    margin-bottom: .5em;
+}
+
+.page-type-exhibit-item #main-content #node-sidebar-right .quote_by {
+    margin: -.5em 0 1em 4em;
+    font-size: 13px;
+    font-style: normal;
+    float: none;
+    color: #311B16;
+}
+
+.page-type-exhibit-item #main-content #node-sidebar-right blockquote .poem {
+    margin: 0px -40px 0em 0em;
+    font-size: 17px;
+}
+
+.page-type-exhibit-item #main-content #node-sidebar-main p {
+    margin-bottom: .6em;
+}
+
+/* Page formats */
+
+.page-type-page #main-content #node-sidebar-right p {
+    margin-bottom: .5em;
+}
+
+.page-type-page #main-content #node-sidebar-right blockquote {
+ margin: 0.5em 0px -3px -3em;
+    font-size: 17px;
+    font-style: italic;
+    float: none;
+    color: #311B16;
+    
+}
+
+.page-type-page #main-content #node-sidebar-right blockquote p {
+    margin-bottom: 0em;
+}
+
+.page-type-page #main-content #node-sidebar-right .quote_by {
+    margin: 5px 0 1em 4em;
+    float: none;
+    color: #311B16;
+    font-style: normal;
+
+}
+
+.page-type-page #main-content #node-sidebar-right blockquote .poem {
+    margin: 0px -40px 0em 0em;
+    font-size: 17px;
+}
+
+.page-type-page #main-content #node-sidebar-main p {
+    margin-bottom: .6em;
+}
+
+.page-type-page #main-content #node-sidebar-main, .page-type-exhibit-item #main-content #node-sidebar-main {
+    padding-right: 5.3em;
+}
+
+	
+/* All content pages */
+.page-type-page #main-content #node-sidebar-main, .page-type-exhibit-item #main-content #node-sidebar-main {
+    float: right;
+    width: 515px;
+    padding-right: 5.3em;
+}
+
+#main-content #node-sidebar-right {
+    float: left;
+   margin-left:0;
+    width: 350px;
+    margin-top: 1.5em;
+}
+
+
+#main-content header #nav {
+	margin-right:1em;
+	float:right;
+	padding-top:2em;
+	margin-bottom:0;
+}
+
+#main-content header #nav a {
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#main-content #node-sidebar-right .field-name-body,#main-content #node-sidebar-right .field-name-field-source {
+	font-size:105%;
+}
+
+.article-content #nav {
+font-weight:bold;
+text-decoration:none;
+}
+	
+/* exhibit pages  */
+.page-type-exhibit-item #main-content {
+    margin-top: 1em;
+}
+
+.page-type-exhibit-item #main-content header {
+	border-bottom:none;
+	margin-bottom:0;
+}
+
+.page-type-exhibit-item #main-content #node-sidebar-right {
+    margin-top: -.5em;
+}
+
+
+.page-type-exhibit-item #main-content #node-sidebar-main .field-type-image {
+	margin-top:1em;
+	text-align:center;
+	margin-bottom:2em;
+}
+
+.page-type-exhibit-item #main-content #node-sidebar-right h1 {
+	font-weight:bold;
+}
+
+.page-type-exhibit-item #main-content #node-sidebar-main {
+    margin-top: .5em;
+}
+
+
+a.view_transcript {
+	color:#872011;
+	text-transform:capitalize;
+	padding:.2em 1em .5em 2.5em;
+	background:transparent url() left top no-repeat;
+	position:absolute;
+	top:-22px;
+	right:350px;
+	text-decoration:none;
+}
+
+div.field-name-field-source {
+	float:left;
+}
+
+
+div.field-name-field-source {
+	position:absolute;
+	top:-20px;
+}
+
+div.field-name-field-source a {
+text-decoration: none;
+}
+
+.page-type-exhibit-item #main-content header #nav {
+padding-top:20px;
+float:right;
+margin-right:2em;
+}
+
+.page-type-exhibit-item .article-content #nav {
+    margin-right: -.6em;
+}
+
+.page-type-exhibit-item .article-content #nav a {
+text-decoration:none;
+}
+
+	
+/* Basic page styles */
+.page-type-page #main-content header,.page-type-exhibit-item #main-content header {
+	padding-right:3em;
+	margin-left:420px;
+}
+
+.page-type-page #main-content {
+    margin-top: 1.5em;
+}
+
+.page-type-page #main-content header {
+    padding-left: 0;
+}
+
+.page-type-page #main-content header h1#page-title {
+margin-top:15px;
+margin-left: 2px;
+line-height: 110%;
+}
+
+
+.page-type-page #main-content #node-sidebar-right {
+    margin-top: -2em;
+}
+
+.page-type-page #main-content header #nav  {
+margin-top: -3em;
+padding-bottom: 15px;
+}
+
+.page-type-page .article-content #nav {
+    margin-right: 3.5em;
+}
+
+.page-type-page .article-content #nav a {
+text-decoration:none;
+}
+
+.page-type-page #main-content #node-sidebar-main p {
+	font-size:120%;
+}
+
+a#view_full_article {
+   margin-top:20px;
+   display:block;
+   margin-bottom:20px;
+   text-decoration:none;
+   font-weight:bold;
+   text-decoration:none;
+}
+
+.page-node-43 a#view_full_article {
+    display: none;
+}
+	
+/* About Page */
+body.page-node-55 h2#chapter_title {
+	margin-top:130px;
+}
+
+body.page-node-55 #main-content h1#page-title {
+	display:none;
+}
+
+
+body.page-node-55 #main-content #nav,body.page-node-55 .article-content #nav {
+	display:none;
+}
+
+body.page-node-55 #body-teaser,body.page-node-55 #body-more,body.page-node-55 #view_full_article {
+	display:none;
+}
+
+body.page-node-55 #body-full {
+	display:block;
+}
+
+body.page-node-55 #main-content header {
+	border-bottom:none;
+}
+
+.page-node-55 #main-content #node-sidebar-right .field-name-field-quote {
+	font-size:15px;
+	font-style:normal;
+	margin-top:125px;
+}
+
+.page-node-55 #main-content #node-sidebar-right .field-name-field-quote {
+    font-size: 15px;
+    font-style: normal;
+    margin-top: 40px;
+}
+
+.page-node-55 #main-content {
+    margin-top: 2em;
+}
+
+.page-node-55 .exhibitlocations, .page-node-55 .exhibitdate {
+    display: none;
+}
+
+
+/* Map Page */
+
+.page-map header h2#chapter_title {
+margin-top: 4em;
+}
+
+.view-maps .view-header {
+    width: 325px;
+    margin-top: 3.4em;
+    font-size: 16px;
+}
+
+.view-maps .view-content {
+    width: 580px;
+    padding: 0;
+    margin: 3.7em 1.5em 3em 0;
+    border: 2px solid #877F6F;
+}
+
+.page-node-55 #main-content #node-sidebar-right .field-name-field-quote {
+    font-size: 15px;
+    font-style: normal;
+    margin-top: 40px;
+}
+
+/* audio */
+
+div.jp-audio {
+    width: 40px;
+    float: left;
+}
+
+.page-type-exhibit-item div.jp-audio {
+    width: 30px;
+    float: left;
+}
+
+a.jp-play {
+    padding-left: 60px;
+}
+
+#body-teaser {
+    clear: both;
+}
+
+.front .field-name-field-audio {
+    display: none;
+}
+
+.page-type-exhibit-item .field-name-field-audio {
+    margin: 15px 0 15px 0;
+}
+
+.page-type-page .field-name-field-audio {
+    margin: 10px 0 25px 0;
+}
+
+.page-type-exhibit-item .audio-description {
+    font-weight: bold;
+    padding-left: 0px;
+    font-size: 105%;
+}
+
+.page-type-page .audio-description {
+    font-weight: bold;
+    padding-left: 0px;
+    font-size: 105%;
+}
+
+.page-type-exhibit-item .field-name-field-credits {
+ margin-left: 2em;   
+}
+
+/* page nex/prev tweaks */
+
+.page-node-117 #main-content header #nav  {
+margin-top: -5.5em;
+padding-bottom: 4em;
+}
+
+.page-node-155 #main-content header #nav  {
+margin-right:-1em;
+}
+
+.page-node-110 #main-content header #nav {
+    margin-right: -.5em;
+}
+
+
+/* image swaps */
+
+region-leaderboard #block-search-form #edit-search-block-form--2 {
+	background:#E3DDC7 url(../images/search_bg.jpg) right center no-repeat;
+}
+
+.front #page {
+    background: transparent url(../images/homepageheader2.jpg) center 30px no-repeat;
+}
+
+#page {
+    background: transparent url(../images/interiorheader.jpg) center 75px no-repeat;
+}
+
+#content #article-1 #front-about-exhibit a {
+    background: transparent url('../images/aboutexhibithome.jpg') top left no-repeat;
+}
+
+#content #article-1 #front-about-exhibit a {
+    background: transparent url('../images/aboutexhibithome.jpg') top left no-repeat;
+}
+
+#content #article-1 #front-literary-history a {
+    background: transparent url('../images/maphome.jpg') top left no-repeat;
+}
+
+#content #article-1 #front-chapter-1 a {
+    background: #3A210A url('../images/bookspine1.jpg') top left no-repeat;
+}
+
+#content #article-1 #front-chapter-2 a {
+    background: #3A210A url('../images/bookspine2.jpg') top left no-repeat;
+}
+
+#content #article-1 #front-chapter-3 a {
+    background: #3A210A url('../images/bookspine3.jpg') top left no-repeat;
+}
+
+#content #article-1 #front-chapter-4 a {
+    background: #3A210A url('../images/bookspine4.jpg') top left no-repeat;
+}
+
+#content #article-1 #front-chapter-5 a {
+    background: #3A210A url('../images/bookspine5.jpg') top left no-repeat;
+}
+
+#content #article-1 #front-chapter-6 a {
+    background: #3A210A url('../images/bookspine6.jpg') top left no-repeat;
+}
+
+.region-highlighted {
+    background: transparent;
+    margin-top: 12px;
+}
+
+.front a.jp-play {
+    background: url("../images/audiobutton-homepage.jpg") top left no-repeat;
+}
+
+a.jp-play {
+background: url(../images/audiobutton-exhibit.png) no-repeat 0% 0%;
+}
+
+/* Feedback form */
+
+.page-contact #content-column .content-inner {
+    margin: 8em auto 0 3em;
+    width: 500px
+}
+
+.page-contact #main-content h1#page-title {
+    display: none;
+}
+
+.page-contact .region-sidebar-second {
+ margin-top: 4em;
+padding-left:2.5em;
+ width: 500px;
+}
+
+ul.pager {
+padding-bottom: 1em;  
+}
+
+ul.pager li a {
+color:#872011;   
+}
+
+/* ie8 and below */
+.ie8 .region-leaderboard #block-search-form {
+  display:block;
+  width:230px;
+  height:20px;
+  padding-right:2em;
+}
+.ie8 .region-leaderboard #block-search-form #edit-search-block-form--2{
+  width:230px;
+  height:20px;
+  padding-left:1.1em;
+  font-size:1.1em;
+  margin-right:4em;
+  background:#9E937C url('../images/search_bg.jpg') right center no-repeat;
+  -webkit-appearance:none;
+}

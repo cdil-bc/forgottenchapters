@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7" lang="en" dir="ltr"><![endif]-->
+<!--[if (lte IE 6)&(!IEMobile)]><html class="ie6 ie6-7 ie6-8" lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="ie7 ie6-7 ie6-8" lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 8)&(!IEMobile)]><html class="ie8 ie6-8" lang="en" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html lang="en" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+
+<!-- Mirrored from chapters.bc.edu/map by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 Aug 2016 15:42:57 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<link rel="shortcut icon" href="sites/all/themes/forgottenchapters/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="cleartype" content="on">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<title>An Interactive Map of Literary Boston: 1794–1862 | Forgotten Chapters of Boston&#039;s Literary History</title>
+<style>
+@import url("modules/system/system.base063b.css?o1vzsw");
+@import url("modules/system/system.menus063b.css?o1vzsw");
+@import url("modules/system/system.messages063b.css?o1vzsw");
+@import url("modules/system/system.theme063b.css?o1vzsw");
+</style>
+<style>
+@import url("modules/comment/comment063b.css?o1vzsw");
+@import url("modules/field/theme/field063b.css?o1vzsw");
+@import url("sites/all/modules/logintoboggan/logintoboggan063b.css?o1vzsw");
+@import url("modules/node/node063b.css?o1vzsw");
+@import url("modules/search/search063b.css?o1vzsw");
+@import url("modules/user/user063b.css?o1vzsw");
+@import url("sites/all/modules/views/css/views063b.css?o1vzsw");
+</style>
+<style>
+@import url("sites/all/modules/ctools/css/ctools063b.css?o1vzsw");
+@import url("sites/all/modules/panels/css/panels063b.css?o1vzsw");
+@import url("sites/all/modules/typogrify/typogrify063b.css?o1vzsw");
+@import url("sites/all/modules/gmap/gmap063b.css?o1vzsw");
+</style>
+<style>
+@import url("sites/all/themes/adaptivetheme/adaptivetheme/css/at.base063b.css?o1vzsw");
+@import url("sites/all/themes/adaptivetheme/adaptivetheme/css/at.layout063b.css?o1vzsw");
+@import url("sites/all/themes/adaptivetheme/adaptivetheme/css/at.messages063b.css?o1vzsw");
+@import url("sites/all/themes/forgottenchapters/css/fonts063b.css?o1vzsw");
+@import url("sites/all/themes/forgottenchapters/css/html-elements063b.css?o1vzsw");
+@import url("sites/all/themes/forgottenchapters/css/forms063b.css?o1vzsw");
+@import url("sites/all/themes/forgottenchapters/css/tables063b.css?o1vzsw");
+@import url("sites/all/themes/forgottenchapters/css/fields063b.css?o1vzsw");
+@import url("sites/all/themes/forgottenchapters/css/page063b.css?o1vzsw");
+@import url("sites/all/themes/forgottenchapters/css/navigation063b.css?o1vzsw");
+@import url("sites/all/themes/forgottenchapters/css/articles063b.css?o1vzsw");
+@import url("sites/all/themes/forgottenchapters/css/comments063b.css?o1vzsw");
+@import url("sites/all/themes/forgottenchapters/css/blocks063b.css?o1vzsw");
+@import url("sites/all/themes/forgottenchapters/colorbox/colorbox063b.css?o1vzsw");
+@import url("sites/all/themes/forgottenchapters/css/jquery.jscrollpane063b.css?o1vzsw");
+@import url("sites/all/themes/forgottenchapters/css/jplayer063b.css?o1vzsw");
+@import url("sites/all/themes/forgottenchapters/css/style_override063b.css?o1vzsw");
+</style>
+<style>
+#___gcse_0 {
+    float: right !important;
+    padding-top: 8px !important;
+    height: 20px !important;
+}
+
+.gsc-control-cse {
+    width: 300px !important;
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    margin-right: 1em !important;
+}
+
+table.gsc-search-box {
+    margin: 0 !important;
+    border: none !important;
+}
+
+table.gsc-search-box tbody {
+    border: none !important;
+}
+
+table.gsc-search-box td {
+    padding: 0 !important;
+}
+
+.gsc-control-cse div {
+    background: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+}
+
+.gsc-control-cse table {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.gsc-search-box-tools .gsc-search-box .gsc-input {
+    border-radius: 3px !important;
+}
+
+input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:focus {
+    padding: .35em 1em !important;
+    margin-top: -.2em !important;
+    background: #C2BAA3 !important;
+}
+</style><style media="print">
+@import url("sites/all/themes/forgottenchapters/css/print063b.css?o1vzsw");
+</style>
+<link type="text/css" rel="stylesheet" href="sites/default/files/at_css/forgottenchapters.responsive.layout063b.css?o1vzsw" media="screen" />
+<link type="text/css" rel="stylesheet" href="sites/all/themes/forgottenchapters/css/forgottenchapters.responsive.style063b.css?o1vzsw" media="screen" />
+<link type="text/css" rel="stylesheet" href="sites/all/themes/forgottenchapters/css/forgottenchapters.responsive.gpanels063b.css?o1vzsw" media="screen" />
+
+<!--[if lte IE 7]>
+<link type="text/css" rel="stylesheet" href="http://bostonliteraryhistory.com/sites/all/themes/forgottenchapters/css/ie-lte-7.css?o1vzsw" media="all" />
+<![endif]-->
+<link href='http://fonts.googleapis.com/css?family=Montaga' rel='stylesheet' type='text/css'>
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body class="html not-front not-logged-in no-sidebars page-map section-map page-views site-name-hidden">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page-wrapper" class="container">
+<div id="page" class="container">
+
+    <div class="region region-leaderboard">
+
+      <!--- custom google site search -->
+    
+<script>
+  (function() {
+    var cx = '014712821591865955732:spdxqmj9xly';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+      
+<!-- end custom google site ssearch -->
+<nav id="block-menu-menu-secondary-links" class="block block-menu" role="navigation">
+  <div class="block-inner clearfix">
+                <div class="block-content content">
+      <ul class="menu clearfix"><li class="first last leaf menu-item-chapters-953"><a href="about.html" title="">About</a></li></ul>    </div>
+  </div>
+</nav>
+  </div>
+	<div id="primary-menu-bar" class="nav"><nav class="clearfix"><h2 class="element-invisible">Main menu</h2><ul class="menu primary-menu clearfix"><li class="menu-157 first home"><a href="index.html" class="spaces-menu-editable">Home</a></li><li class="menu-669 chapter-1"><a href="chapter-1.html">Chapter 1</a></li><li class="menu-670 chapter-2"><a href="chapter-2.html">Chapter 2</a></li><li class="menu-949 chapter-3"><a href="chapter-3.html">Chapter 3</a></li><li class="menu-950 chapter-4"><a href="chapter-4.html">Chapter 4</a></li><li class="menu-673 chapter-5"><a href="chapter-5.html">Chapter 5</a></li><li class="menu-674 chapter-6"><a href="chapter-6.html">Chapter 6</a></li><li class="menu-951 active-trail last active map"><a href="map.html" title="" class="active-trail active">Map</a></li></ul></nav></div>  <header class="clearfix" role="banner">
+
+    		          <hgroup class="element-invisible">
+                  <h1 id="site-name" class="element-invisible"><a href="index-2.html" title="Home page">Forgotten Chapters of Boston&#039;s Literary History</a></h1>
+                      </hgroup>
+    
+		  <div class="region region-header">
+    <div id="block-block-9" class="block block-block">
+  <div class="block-inner clearfix">
+                <div class="block-content content">
+      <h2 id="chapter_title" class="chapter_title">An Interactive Map of Literary Boston:&nbsp;1794–1862</h2>    </div>
+  </div>
+</div>
+  </div>
+  </header>
+
+    
+  
+  
+  
+  
+  <div id="columns"><div class="columns-inner clearfix">
+    <div id="content-column"><div class="content-inner">
+
+        <div class="region region-highlighted">
+    <div id="block-forgottenchapters-helper-chapter-index" class="block block-forgottenchapters-helper">
+  <div class="block-inner clearfix">
+                <div class="block-content content">
+      <div class="view view-chapter-index view-id-chapter_index view-display-id-block_1 view-dom-id-cf3703a8c775ce206cec4626d6ed45db">
+        
+  
+  
+      <div class="view-empty">
+      No Results found&nbsp;here    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</div>
+  </div>
+			            <section id="main-content" role="main">
+
+                          <header class="clearfix">
+                          <h1 id="page-title">An Interactive Map of Literary Boston: 1794–1862</h1>
+                        <div id="nav" class="clearfix">
+														
+						</div>
+          </header>
+                
+        <div id="content">  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+  <div class="block-inner clearfix">
+                <div class="block-content content">
+      <div class="view view-maps view-id-maps view-display-id-page view-dom-id-e3439de7a1fc8e1d5525bc3f50d70474">
+            <div class="view-header">
+      <p>This map provides specific locations associated with Boston-based writers, editors, publishers, and periodicals during the years covered by the Forgotten Chapters exhibition. In the pop-up descriptions that feature 2 addresses, the first is current, while the second refers to the same location as it was known in the years specified. Because many streets, street names, and building numbers have changed, some current addresses are&nbsp;approximate.</p>
+<p><a href="sites/default/files/bostonliteraryhistorymap.pdf" target="_blank">Download <span class="caps">PDF</span> version of&nbsp;map</a></p>    </div>
+  
+  
+  
+      <div class="view-content">
+      <div style="width: 580px; height: 850px;" id="gmap-auto1map-gmap0" class="gmap-control gmap-gmap gmap gmap-map gmap-auto1map-gmap"><noscript>Javascript is required to view this map.</noscript></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</div>
+  </div>
+</div>
+				
+        
+      </section>
+
+      
+    </div></div>
+
+        
+  </div></div>
+
+  
+      <footer role="contentinfo">  <div class="region region-footer">
+    <div id="block-block-2" class="block block-block">
+  <div class="block-inner clearfix">
+                <div class="block-content content">
+      <p>© 2012 The Trustees of Boston College. | </p>    </div>
+  </div>
+</div>
+  </div>
+</footer>
+  
+</div>
+</div>  <script src="ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script src="misc/jquery.once7839.js?v=1.2"></script>
+<script src="misc/drupal063b.js?o1vzsw"></script>
+<script src="sites/all/themes/adaptivetheme/adaptivetheme/js/vertical-tabs063b.js?o1vzsw"></script>
+<script src="sites/all/libraries/colorbox/jquery.colorbox-min063b.js?o1vzsw"></script>
+<script src="sites/all/modules/colorbox/js/colorbox063b.js?o1vzsw"></script>
+<script src="sites/all/modules/colorbox/js/colorbox_load063b.js?o1vzsw"></script>
+<script src="sites/all/modules/colorbox/js/colorbox_inline063b.js?o1vzsw"></script>
+<script src="sites/all/modules/panels/js/panels063b.js?o1vzsw"></script>
+<script src="sites/all/modules/google_analytics/googleanalytics063b.js?o1vzsw"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","analytics.js","ga");ga("create", "UA-29389371-1", {"cookieDomain":"auto"});ga("send", "pageview");</script>
+<script src="sites/all/modules/gmap/js/gmap063b.js?o1vzsw"></script>
+<script src="http://maps.googleapis.com/maps/api/js?v=3&amp;language=en&amp;sensor=false"></script>
+<script src="sites/all/modules/gmap/js/icon063b.js?o1vzsw"></script>
+<script src="sites/all/modules/gmap/js/marker063b.js?o1vzsw"></script>
+<script src="sites/all/modules/gmap/js/highlight063b.js?o1vzsw"></script>
+<script src="sites/all/modules/gmap/js/poly063b.js?o1vzsw"></script>
+<script src="sites/default/files/js/gmap_markers.js"></script>
+<script src="sites/all/modules/gmap/js/markerloader_static063b.js?o1vzsw"></script>
+<script src="sites/all/modules/gmap/js/gmap_marker063b.js?o1vzsw"></script>
+<script src="sites/all/themes/adaptivetheme/adaptivetheme/js/respond063b.js?o1vzsw"></script>
+<script src="sites/all/themes/forgottenchapters/js/mwheelIntent063b.js?o1vzsw"></script>
+<script src="sites/all/themes/forgottenchapters/js/jquery.mousewheel063b.js?o1vzsw"></script>
+<script src="sites/all/themes/forgottenchapters/js/jquery.jscrollpane.min063b.js?o1vzsw"></script>
+<script src="sites/all/themes/forgottenchapters/scripts063b.js?o1vzsw"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"forgottenchapters","theme_token":"Kvm2HDTyj6S36ZNBm69IKY5jOiEPJY0R0va_Ai3Ld5U","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/libraries\/colorbox\/example2\/colorbox.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/typogrify\/typogrify.css":1,"sites\/all\/modules\/gmap\/gmap.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.base.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.layout.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.messages.css":1,"sites\/all\/themes\/forgottenchapters\/css\/fonts.css":1,"sites\/all\/themes\/forgottenchapters\/css\/html-elements.css":1,"sites\/all\/themes\/forgottenchapters\/css\/forms.css":1,"sites\/all\/themes\/forgottenchapters\/css\/tables.css":1,"sites\/all\/themes\/forgottenchapters\/css\/fields.css":1,"sites\/all\/themes\/forgottenchapters\/css\/page.css":1,"sites\/all\/themes\/forgottenchapters\/css\/navigation.css":1,"sites\/all\/themes\/forgottenchapters\/css\/articles.css":1,"sites\/all\/themes\/forgottenchapters\/css\/comments.css":1,"sites\/all\/themes\/forgottenchapters\/css\/blocks.css":1,"sites\/all\/themes\/forgottenchapters\/colorbox\/colorbox.css":1,"sites\/all\/themes\/forgottenchapters\/css\/jquery.jscrollpane.css":1,"sites\/all\/themes\/forgottenchapters\/css\/jplayer.css":1,"sites\/all\/themes\/forgottenchapters\/css\/style_override.css":1,"sites\/all\/themes\/forgottenchapters\/css\/print.css":1,"public:\/\/at_css\/forgottenchapters.responsive.layout.css":1,"sites\/all\/themes\/forgottenchapters\/css\/forgottenchapters.responsive.style.css":1,"sites\/all\/themes\/forgottenchapters\/css\/forgottenchapters.responsive.gpanels.css":1,"sites\/all\/themes\/forgottenchapters\/css\/ie-lte-7.css":1},"js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/vertical-tabs.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/modules\/panels\/js\/panels.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/modules\/gmap\/js\/gmap.js":1,"http:\/\/maps.googleapis.com\/maps\/api\/js?v=3\u0026language=en\u0026sensor=false":1,"sites\/all\/modules\/gmap\/js\/icon.js":1,"sites\/all\/modules\/gmap\/js\/marker.js":1,"sites\/all\/modules\/gmap\/js\/highlight.js":1,"sites\/all\/modules\/gmap\/js\/poly.js":1,"\/sites\/default\/files\/js\/gmap_markers.js":1,"sites\/all\/modules\/gmap\/js\/markerloader_static.js":1,"sites\/all\/modules\/gmap\/js\/gmap_marker.js":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/js\/respond.js":1,"sites\/all\/themes\/forgottenchapters\/js\/mwheelIntent.js":1,"sites\/all\/themes\/forgottenchapters\/js\/jquery.mousewheel.js":1,"sites\/all\/themes\/forgottenchapters\/js\/jquery.jscrollpane.min.js":1,"sites\/all\/themes\/forgottenchapters\/scripts.js":1}},"colorbox":{"transition":"elastic","speed":"350","opacity":"0.50","slideshow":false,"slideshowAuto":true,"slideshowSpeed":"2500","slideshowStart":"start slideshow","slideshowStop":"stop slideshow","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","overlayClose":true,"maxWidth":"","maxHeight":"","initialWidth":"300","initialHeight":"250","fixed":true,"scrolling":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"gmap":{"auto1map":{"width":"580px","height":"850px","zoom":16,"maxzoom":"16","controltype":"Small","align":"None","maptype":"Map","mtc":"standard","baselayers":{"Map":1,"Satellite":1,"Hybrid":1},"styles":{"line_default":["0000ff","5","45","",""],"poly_default":["000000","3","25","ff0000","45"],"highlight_color":"ff0000"},"line_colors":["#00cc00","#ff0000","#0000ff"],"behavior":{"locpick":false,"nodrag":0,"nokeyboard":1,"nomousezoom":1,"nocontzoom":0,"autozoom":0,"dynmarkers":0,"overview":0,"collapsehack":0,"scale":0,"extramarkerevents":false,"clickableshapes":false,"googlebar":0,"highlight":0},"markermode":"1","longitude":"-71.06190919876099","latitude":"42.35459565012068","id":"auto1map","markers":[{"latitude":42.349807,"longitude":-71.066372,"markername":"numbers","offset":0,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E62 Charles Street South (formerly 62 Carver Street): Edgar Allan Poe born here on January 19, 1809. The building was razed in\u0026nbsp;1959.\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.352717,"longitude":-71.066544,"markername":"numbers","offset":1,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003ECentral Burying Ground, on Boston Common near\u00a0Boylston Street: Charles Sprague, the banker-poet of Boston,\u00a0buried here in\u0026nbsp;1875.\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.356261,"longitude":-71.066072,"markername":"numbers","offset":2,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cdiv\u003EFrog Pond, on Boston Common: Associated with the Boston literati by Edgar Allan Poe who called them Frogpondians.\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.356927,"longitude":-71.066179,"markername":"numbers","offset":3,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cdiv\u003E39 Beacon Street: Henry Wadsworth Longfellow and Fanny Appleton got married here in 1843.\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.357771,"longitude":-71.066796,"markername":"numbers","offset":4,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E13 Chestnut Street: Julia Ward Howe lived here\u0026nbsp;1862\u20131866\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.358689,"longitude":-71.067381,"markername":"numbers","offset":5,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cdiv\u003E54 Pinckney Street: Nathaniel Hawthorne lived here January 1839\u2013October 1840\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.358716,"longitude":-71.065434,"markername":"numbers","offset":6,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cdiv\u003E4 Pinckney Street: Henry David Thoreau lived here September 1821\u2013March 1823\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.359624,"longitude":-71.064597,"markername":"numbers","offset":7,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cdiv\u003E53 Hancock Street: Nathaniel Hawthorne lived here in\u00a01836.\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.358023,"longitude":-71.062084,"markername":"numbers","offset":8,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cdiv\u003E10\u00bd Beacon Street: Boston Athenaeum, founded in 1807,\u00a0moves here in 1849\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.359432,"longitude":-71.059602,"markername":"numbers","offset":9,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cdiv\u003EGovernment Center \u003Cspan class=\u0022caps\u0022\u003EMBTA\u003C\/span\u003E Station (81 Court Street): \u003Cem\u003EThe\u00a0Juvenile Miscellany\u003C\/em\u003E (1826\u201336), edited by Lydia Maria Child\u00a0and published here by John Putnam in 1826\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.359329,"longitude":-71.05902,"markername":"numbers","offset":10,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cdiv\u003E55 Court Street (47 Court Street): \u003Cem\u003EThe American Magazine\u00a0of Useful and Entertaining Knowledge\u003C\/em\u003E, (1834\u201337) published\u00a0by the Boston Bewick Company and edited by Nathaniel\u00a0Hawthorne here in 1836.\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.359047,"longitude":-71.058433,"markername":"numbers","offset":11,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cdiv\u003E17 Court Street (7 Court Street): [Monthly] \u003Cem\u003EAnthology and\u00a0Boston Review\u003C\/em\u003E (1804\u201311) published here by the Anthology\u00a0Club in 1804\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.359634,"longitude":-71.05806,"markername":"numbers","offset":12,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cdiv\u003E28 State Street, opposite One Washington Mall, (47 Cornhill): Samuel Etheridge prints Brighton resident\u00a0Hannah Webster Foster\u2019s novel \u003Cem\u003EThe Coquette\u003C\/em\u003E in 1797.\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.359468,"longitude":-71.057822,"markername":"numbers","offset":13,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cdiv\u003E1 Washington Street (41 Washington Street): \u003Cem\u003ELadies\u00a0Magazine\u003C\/em\u003E, edited by Sarah Josepha Hale, published here in\u00a01828\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.359242,"longitude":-71.05736,"markername":"numbers","offset":14,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cdiv\u003E28 State Street (corner of Wilson\u2019s Lane \u003Cspan class=\u0022amp\u0022\u003E\u0026amp;\u003C\/span\u003E State Street):\u00a0\u003Cem\u003EThe Boston Weekly Magazine\u003C\/em\u003E published here by Samuel Gilbert\u00a0and Thomas Dean in 1804.\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.358425,"longitude":-71.057805,"markername":"numbers","offset":15,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cdiv\u003E226 Washington Street (72 Washington Street): \u003Cem\u003EThe United\u00a0States Review and Literary Gazette\u003C\/em\u003E, John Neal, editor, Bowles\u00a0and Dearborn publishers, here 1826\u201327; Fetridge Periodical\u00a0Arcade here from 1850\u20131855.\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.358823,"longitude":-71.058106,"markername":"numbers","offset":16,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cdiv\u003E201 Washington Street (67 Washington Street): \u003Cem\u003EThe Pioneer,\u003C\/em\u003E\u00a0edited by James Russell Lowell, published here in 1843.\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.358558,"longitude":-71.058111,"markername":"numbers","offset":17,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cdiv\u003E201 Washington Street (81 Washington Street): \u003Cem\u003EThe Christian\u00a0Examiner\u003C\/em\u003E, published by David Reed here in 1826.\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.357727,"longitude":-71.058004,"markername":"numbers","offset":18,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cdiv\u003E263 Washington Street (127 Washington Street): \u003Cem\u003EThe Youth\u2019s\u00a0Companion\u003C\/em\u003E (1827\u20131929) edited by Nathaniel Willis and published\u00a0here in 1827 by Willis and Rand.\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.357493,"longitude":-71.058353,"markername":"numbers","offset":19,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cdiv\u003E283 Washington Street\u00a0 The Old Corner Bookstore: 1841: William D. Ticknor;\u00a01847: William D. Ticknor \u003Cspan class=\u0022amp\u0022\u003E\u0026amp;\u003C\/span\u003E Co (Wm. D. Ticknor, John Reed\u00a0Jr., James T. Fields); 1853: Ticknor, Reed, and Fields; 1854:\u00a0Ticknor and Fields. Major works by Longfellow, Holmes, Stowe,\u00a0Hawthorne, Emerson, and Thoreau published here.\u00a0\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.357545,"longitude":-71.058798,"markername":"numbers","offset":20,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cdiv\u003E30 School Street (10 School Street): \u003Cem\u003ENew England Magazine\u003C\/em\u003E\u00a0(1831\u201335), published here by \u003Cspan class=\u0022caps\u0022\u003EE. R.\u003C\/span\u003E Broaders in 1831.\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.357947,"longitude":-71.060348,"markername":"numbers","offset":21,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cdiv\u003E60 School Street: The Parker House. The Saturday Club\u00a0meets here starting in 1855.\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.357608,"longitude":-71.059189,"markername":"numbers","offset":22,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cdiv\u003E30 School Street (10 School Street): \u003Cem\u003EThe Boston Miscellany\u00a0of Literature and Fashion\u003C\/em\u003E (1842\u201343) edited by Nathan Hale, Jr.,\u00a0published here by Bradbury, Soden and Co. in 1842\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.357038,"longitude":-71.058369,"markername":"numbers","offset":23,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cdiv\u003E310 Washington Street (corner of Marlborough \u003Cspan class=\u0022amp\u0022\u003E\u0026amp;\u003C\/span\u003E Milk\u00a0Streets): Old South Meeting House. Phillis Wheatley joins the\u00a0church here in 1771.\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.357371,"longitude":-71.058235,"markername":"numbers","offset":24,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cdiv\u003E280 Washington Street (134 Washington Street): \u003Cem\u003EThe North\u00a0American Review\u003C\/em\u003E (1815\u20131940) published here in 1841 by James\u00a0Munroe and Company.\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.357783,"longitude":-71.057339,"markername":"numbers","offset":25,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cdiv\u003E1 Devonshire Place (11 Devonshire Street): \u003Cem\u003EThe Literary\u00a0and Catholic Sentinel\u003C\/em\u003E published here by Patrick Donahoe and\u00a0Henry L. Devereux in 1835.\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.35567,"longitude":-71.056711,"markername":"numbers","offset":26,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cdiv\u003E1 Federal Street (Federal St. \u003Cspan class=\u0022amp\u0022\u003E\u0026amp;\u003C\/span\u003E Franklin Place): The\u00a0Federal Street Theatre here from 1793\u20131852. Also called The\u00a0Boston Theatre and, later, The Odeon.\u00a0\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.3554,"longitude":-71.057972,"markername":"numbers","offset":27,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cdiv\u003E77 Franklin Street (5 Franklin Place, in the Tontine\u00a0Crescent): Residence of Judith Sargent Murray, 1794\u20131819.\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.356364,"longitude":-71.059383,"markername":"numbers","offset":28,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cdiv\u003EOrange Line \u003Cspan class=\u0022caps\u0022\u003EMBTA\u003C\/span\u003E entrance, corner of Washington and Franklin Streets (184 Washington Street): \u003Cem\u003EThe Boston\u00a0Literary Magazine\u003C\/em\u003E (1832\u201333) published here by Clapp \u003Cspan class=\u0022amp\u0022\u003E\u0026amp;\u003C\/span\u003E Hull\u00a0in 1832.\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.357164,"longitude":-71.0606,"markername":"numbers","offset":29,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cdiv\u003E3 Bosworth Street (8 Montgomery Place): Oliver Wendell\u00a0Holmes, Sr. lives here 1841\u201359.\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.35726,"longitude":-71.061083,"markername":"numbers","offset":30,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cdiv\u003E101 Tremont Street (the corner of Tremont \u003Cspan class=\u0022amp\u0022\u003E\u0026amp;\u003C\/span\u003E Bromfield\u00a0Streets): \u003Cem\u003EThe Flag of Our Union\u003C\/em\u003E (1846\u201371) published by\u00a0Frederick Gleason and edited by Maturin Murray (M. M.)\u00a0Ballou here in 1846.\u00a0\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.356106,"longitude":-71.061813,"markername":"numbers","offset":31,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cp\u003E13 Winter Street: \u003Cem\u003EThe Atlantic Monthly\u003C\/em\u003E starts here in\u0026nbsp;1857.\u003C\/p\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.355825,"longitude":-71.062564,"markername":"numbers","offset":32,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cdiv\u003E140 Tremont Street (Tremont St. \u003Cspan class=\u0022amp\u0022\u003E\u0026amp;\u003C\/span\u003E Temple Place):\u00a0Children\u2019s author Jacob Abbott\u2019s Mt. Vernon School here\u00a01829\u201334; Bronson Alcott\u2019s Temple School here 1834\u201341.\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.354984,"longitude":-71.061169,"markername":"numbers","offset":33,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cdiv\u003E453 Washington Street (45 Newbury Street, at Faust\u2019s Statue bookshop): \u003Cem\u003EThe\u00a0Massachusetts Magazine\u003C\/em\u003E (1789\u201396) published by Isaiah\u00a0Thomas and Ebenezer T. Andrews here in 1789; Judith\u00a0Sargent Murray\u2019s \u003Cem\u003EThe Gleaner\u003C\/em\u003E published here in 1798.\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.354913,"longitude":-71.059796,"markername":"numbers","offset":34,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cp\u003ERalph Waldo Emerson born here on\u00a0May 25,\u0026nbsp;1803.\u003C\/p\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.354516,"longitude":-71.061233,"markername":"numbers","offset":35,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cdiv\u003E486 Washington Street (1 Avon Place): Residence of\u00a0Margaret Fuller in 1835.\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.354901,"longitude":-71.062526,"markername":"numbers","offset":36,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cdiv\u003E13-15 West Street, Elizabeth Palmer Peabody\u2019s residence\u00a0and bookshop. Woman\u2019s groups led by Peabody, Lydia\u00a0Maria Child, Margaret Fuller here. Nathaniel Hawthorne\u00a0and Sophia Peabody got married here on July 9, 1842.\u00a0\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}},{"latitude":42.353276,"longitude":-71.064157,"markername":"numbers","offset":37,"text":"\u003Cdiv class=\u0022gmap-popup\u0022\u003E  \n  \u003Cdiv class=\u0022views-field views-field-body\u0022\u003E        \u003Cdiv class=\u0022field-content\u0022\u003E\u003Cdiv\u003E175 Tremont Street (\u201copposite the Mall on the\u00a0Common\u201d): Haymarket Theatre here 1796\u20131803.\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\u003C\/div\u003E","autoclick":0,"opts":{"title":"","highlight":0,"highlightcolor":"#FF0000"}}]}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"urlIsAjaxTrusted":{"\/map":true}});</script>
+    
+</body>
+
+<!-- Mirrored from chapters.bc.edu/map by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 Aug 2016 15:42:59 GMT -->
+</html>
